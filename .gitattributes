@@ -1,0 +1,10 @@
+# Content files are compared by GIT BLOB SHA — the app's pack updater asks GitHub for a tree listing
+# and decides "did this file change?" from the SHA alone, without downloading anything
+# (charnik · docs/PLAN.md · REL-4). That only works while the bytes in the blob are the bytes on
+# disk, so nothing here may be EOL-translated on the way in or out: with `core.autocrlf=true` a
+# Windows checkout rewrites every LF to CRLF, and then every file looks permanently changed to every
+# Windows user — a phantom update no one can ever clear.
+#
+# The converters write LF and no BOM on purpose (`tools/srd/lib.mjs`); CRLF+BOM is for the CSVs the
+# app itself writes back, which are a different thing and live in the user's data folder.
+* -text
