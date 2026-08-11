@@ -1,10 +1,10 @@
+#content-hash: xxh64:8033b452fa1b601b
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f968-7fd0-88fc-dbf43af3ecc8
-#content-updated_at: 2026-08-05
-#content-hash: xxh64:d861ecf262529ab2
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,category,prereq,repeatable,ability_choice,skill_choice
 alert,Alert,,"_Origin Feat_
 You gain the following benefits.

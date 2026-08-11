@@ -1,10 +1,10 @@
-﻿#content-source: SRD 5.2.1
+﻿#content-hash: xxh64:51e4bc14aba782fe
+#content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f98cf-c0ad-776a-9f39-71aa2af270d9
-#content-updated_at: 2026-07-25
-#content-hash: xxh64:594468557afdca13
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,category,speakers,script
 common,Common,,,,,standard,,
 common_sign_language,Common Sign Language,,,,,standard,,

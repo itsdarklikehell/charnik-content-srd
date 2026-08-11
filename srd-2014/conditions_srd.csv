@@ -1,10 +1,10 @@
-﻿#content-source: SRD 5.1
+﻿#content-hash: xxh64:3be6b3d81e62e232
+#content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fce9-7a08-a279-ae8d4b1fe0b9
-#content-updated_at: 2026-08-05
-#content-hash: xxh64:9a1a36b5f6880734
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,negative,max_level
 blinded,Blinded,,"•A blinded creature can't see and automatically fails any ability check that requires sight.
 •Attack rolls against the creature have advantage,and the creature's attack rolls have disadvantage.",,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,true,1

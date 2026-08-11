@@ -1,10 +1,10 @@
+#content-hash: xxh64:4cf37f17238a8cbd
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fcc4-791a-94c7-423e595e76d1
-#content-updated_at: 2026-08-03
-#content-hash: xxh64:30f417f31ec44597
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,level,school,casting_time,range,components,material,duration,concentration,ritual,classes,resolution,save_ability,damage,higher_level,upcast
 acid_splash,Acid Splash,,"You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",,,0,conjuration,1 action,60 feet,"V,S",,Instantaneous,false,false,,save,dex,1d6 acid,,
 chill_touch,Chill Touch,,"You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.

@@ -1,10 +1,10 @@
+#content-hash: xxh64:db7142adf693e61d
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fcd5-7377-ab65-afb0860395ea
-#content-updated_at: 2026-07-16
-#content-hash: xxh64:06645d840940d9fa
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,size,creature_type,alignment,ac,hp,hp_formula,speed,str,dex,con,int,wis,cha,cr,senses,languages,skills
 aboleth,Aboleth,,"Amphibious. The aboleth can breathe air and water.
 Mucous Cloud. While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.

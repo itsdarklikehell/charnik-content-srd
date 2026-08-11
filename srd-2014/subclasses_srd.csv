@@ -1,10 +1,10 @@
+#content-hash: xxh64:4b6c46fc6d42c9b4
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd37-7903-ba00-ccfa91d6c74d
-#content-updated_at: 2026-07-16
-#content-hash: xxh64:6b5e0154f619531f
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,class_id
 pathoftheberserker,PathoftheBerserker,,,,,barbarian
 collegeoflore,CollegeofLore,,,,,bard

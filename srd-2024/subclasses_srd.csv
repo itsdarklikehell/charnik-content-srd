@@ -1,10 +1,10 @@
+#content-hash: xxh64:be3a1d8165b7a6c8
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9eb-7a5a-b347-792978e9197c
-#content-updated_at: 2026-07-16
-#content-hash: xxh64:a36fd0552dfc2679
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,class_id
 path_of_the_berserker,Path of the Berserker,,,,,barbarian
 college_of_lore,College of Lore,,,,,bard

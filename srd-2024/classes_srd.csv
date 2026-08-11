@@ -1,10 +1,10 @@
+#content-hash: xxh64:ea9bd8018be25ca9
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e3-73e9-b5d8-eed9f6418232
-#content-updated_at: 2026-07-21
-#content-hash: xxh64:c485dbde4ef00675
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,hit_die,primary_ability,saves,caster,spell_ability,skills_choose,skills_from,weapon_profs,armor_profs,subclass_level,asi_levels
 barbarian,Barbarian,,,,,d12,str,"str,con",none,,2,"animal_handling,athletics,intimidation,nature,perception,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19"
 bard,Bard,,,,,d8,cha,"dex,cha",full,cha,3,any,simple,light,3,"4,8,12,16,19"

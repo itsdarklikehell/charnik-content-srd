@@ -1,10 +1,10 @@
-﻿#content-source: SRD 5.2.1
+﻿#content-hash: xxh64:15d76e91b0c2047d
+#content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f972-79f0-8cbe-db82843f9ea2
-#content-updated_at: 2026-08-05
-#content-hash: xxh64:392210f12cfde433
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,negative,max_level
 blinded,Blinded,,"While you have the Blinded condition, you experience the following effects.
 _Can't See._ You can't see and automatically fail any ability check that requires sight.

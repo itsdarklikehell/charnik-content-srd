@@ -1,10 +1,10 @@
+#content-hash: xxh64:b3d505143a2d0bef
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd4e-7cbd-ab16-da8d50473527
-#content-updated_at: 2026-08-09
-#content-hash: xxh64:4df1d933ea950b7f
+#content-updated_at: 2026-08-11
 id,name_en,name_uk,text_en,text_uk,effects,category,item_type,cost,weight_lb,properties,damage,range,ac,armor_dex_cap,str_min,stealth_disadvantage,attunement,rarity
 club,Club,,,,,weapon,simple melee,1 sp,2,Light,1d4 bludgeoning,,,,,false,false,
 dagger,Dagger,,,,,weapon,simple melee,2 gp,1,"Finesse, light, thrown (range 20/60)",1d4 piercing,20/60,,,,false,false,
