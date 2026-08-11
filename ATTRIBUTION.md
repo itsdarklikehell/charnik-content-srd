@@ -1,6 +1,6 @@
 # Attribution — bundled content
 
-Everything under `content/` is licensed **CC-BY-4.0** (see `content/LICENSE`).
+Everything in this repository is licensed **CC-BY-4.0** (see `LICENSE`).
 Using it requires keeping the credit below.
 
 ## System Reference Documents (Wizards of the Coast)
@@ -17,5 +17,5 @@ Charnik ships **SRD content only**. No Product Identity, no non-SRD material is 
 ## Per-source provenance
 
 Each content row carries a `source` tag, and each source declares its own `license`
-and `attribution` in the content model (see `docs/PLAN.md`). Community/homebrew sources
-added by users keep their own license + credit — Charnik imposes none on them.
+and `attribution` in the content model (see the app repo's `docs/PLAN.md`). Community/homebrew
+sources added by users keep their own license + credit — Charnik imposes none on them.
