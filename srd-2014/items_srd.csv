@@ -1,10 +1,11 @@
-#content-hash: xxh64:b3d505143a2d0bef
+#content-hash: xxh64:cc2dfee983bdd7e9
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd4e-7cbd-ab16-da8d50473527
-#content-updated_at: 2026-08-11
+#content-updated_at: 2026-08-20
+#content-schema: 1
 id,name_en,name_uk,text_en,text_uk,effects,category,item_type,cost,weight_lb,properties,damage,range,ac,armor_dex_cap,str_min,stealth_disadvantage,attunement,rarity
 club,Club,,,,,weapon,simple melee,1 sp,2,Light,1d4 bludgeoning,,,,,false,false,
 dagger,Dagger,,,,,weapon,simple melee,2 gp,1,"Finesse, light, thrown (range 20/60)",1d4 piercing,20/60,,,,false,false,
@@ -167,7 +168,7 @@ Speed: 30 ft., swim 30 ft. (or 0 ft. for both if the legs and tail aren't extend
 Damage Immunities: poison, psychic To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside. The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes 2d6 bludgeoning damage per minute from pressure. A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of the Crab Levers table.",,,gear,wondrous item,,,,,,,,,false,false,legendary
 armor_1_2_or_3,"Armor, +1, +2, or +3",,You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.,,,armor,armor (light,,,,,,,,,false,false,very_rare
 armor_of_invulnerability,Armor of Invulnerability,,"You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action
-is used, it can't be used again until the next dawn.",,,armor,armor (plate),,,,,,,,,false,true,legendary
+is used, it can't be used again until the next dawn.",,"note:Resistance to nonmagical damage, and an action (once per dawn) for immunity to nonmagical damage for 10 minutes",armor,armor (plate),,,,,,,,,false,true,legendary
 armor_of_resistance,Armor of Resistance,,You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the options below.,,,armor,armor (light,,,,,,,,,false,true,rare
 armor_of_vulnerability,Armor of Vulnerability,,,,,armor,armor (plate),,,,,,,,,false,true,rare
 arrow_catching_shield,Arrow-Catching Shield,,,,,armor,armor (shield),,,,,,,,,false,true,rare
@@ -195,7 +196,7 @@ If you aren't a dwarf, you gain the following additional benefits while wearing 
 •You can speak, read, and writeDwarvish.",,,gear,wondrous item,,,,,,,,,false,true,rare
 berserker_axe,Berserker Axe,,"You gain a +1 bonus to attack and damage rolls made
 with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
-than this one, unless no foe is within 60 feet of you that you can see or hear. Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.",,,weapon,weapon (any axe),,,,,,,,,false,true,rare
+than this one, unless no foe is within 60 feet of you that you can see or hear. Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.",,"flat_bonus:attack+1;flat_bonus:damage+1;flat_bonus:hp_max+level;note:Cursed — while cursed you will not part with the axe, and you must attack the nearest creature when a hostile one damages you",weapon,weapon (any axe),,,,,,,,,false,true,rare
 boots_of_elvenkind,Boots of Elvenkind,,,,advantage:skill.stealth;note:Only checks that rely on moving silently,gear,wondrous item,,,,,,,,,false,false,uncommon
 boots_of_levitation,Boots of Levitation,,,,,gear,wondrous item,,,,,,,,,false,true,rare
 boots_of_speed,Boots of Speed,,,,,gear,wondrous item,,,,,,,,,false,true,rare
@@ -210,7 +211,7 @@ bracers_of_archery,Bracers of Archery,,"While wearing these bracers, you have pr
 bracers_of_defense,Bracers of Defense,,"While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",,not is_wearing_armor and not is_wearing_shield ? flat_bonus:ac+2,gear,wondrous item,,,,,,,,,false,true,rare
 brazier_of_commanding_fire_elementals,Brazier of Commanding Fire Elementals,,"While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a fire elemental, as if you had cast the
 The brazier weighs 5 pounds.",,,gear,wondrous item,,,,,,,,,false,false,rare
-brooch_of_shielding,Brooch of Shielding,,"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the",,,gear,wondrous item,,,,,,,,,false,true,uncommon
+brooch_of_shielding,Brooch of Shielding,,"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the",,resist_immune:resist:force,gear,wondrous item,,,,,,,,,false,true,uncommon
 broom_of_flying,Broom of Flying,,,,,gear,wondrous item,,,,,,,,,false,false,uncommon
 candle_of_invocation,Candle of Invocation,,"The candle's magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle's total burn time. While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st-level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.
 Alternatively, when you light the candle for the first time, you can cast the",,,gear,wondrous item,,,,,,,,,false,true,very_rare
@@ -226,7 +227,7 @@ circlet_of_blasting,Circlet of Blasting,,,,,gear,wondrous item,,,,,,,,,false,fal
 cloak_of_arachnida,Cloak of Arachnida,,"•You have resistance to poison damage.
 •You have a climbing speed equal to your walking speed.
 •You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
-•You can't be caught in webs of any sort and can move through webs as if they were difficult terrain.",,,gear,wondrous item,,,,,,,,,false,true,very_rare
+•You can't be caught in webs of any sort and can move through webs as if they were difficult terrain.",,"resist_immune:resist:poison;note:Climbing speed equal to your walking speed, and cannot be caught in webs",gear,wondrous item,,,,,,,,,false,true,very_rare
 cloak_of_displacement,Cloak of Displacement,,,,,gear,wondrous item,,,,,,,,,false,true,rare
 cloak_of_elvenkind,Cloak of Elvenkind,,,,"note:With the hood up: Advantage on Stealth, and Perception checks to see you have Disadvantage",gear,wondrous item,,,,,,,,,false,true,uncommon
 cloak_of_protection,Cloak of Protection,,You gain a +1 bonus to AC and saving throws while you wear this cloak.,,flat_bonus:ac+1;flat_bonus:saves+1,gear,wondrous item,,,,,,,,,false,true,uncommon
@@ -261,7 +262,7 @@ the GM's choice within 10 feet of you and attacks you, warning all others that y
 defender,Defender,,"You gain a +3 bonus to attack and damage rolls made with this magic weapon.
 The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.",,,weapon,weapon (any sword),,,,,,,,,false,true,legendary
 demon_armor,Demon Armor,,"While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.
-spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",,,armor,armor (plate),,,,,,,,,false,true,very_rare
+spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",,flat_bonus:ac+1;note:Unarmed strikes count as magic weapons dealing 1d8 slashing damage with +1 to attack and damage rolls,armor,armor (plate),,,,,,,,,false,true,very_rare
 dimensional_shackles,Dimensional Shackles,,,,,gear,wondrous item,,,,,,,,,false,false,rare
 dragon_scale_mail,Dragon Scale Mail,,,,,armor,armor (scale mail),,,,,,,,,false,true,very_rare
 dragon_slayer,Dragon Slayer,,,,,weapon,weapon (any sword),,,,,,,,,false,false,rare
@@ -324,7 +325,7 @@ a bonus action to do so-while your focus on it continues.",,,gear,wondrous item,
 helm_of_teleportation,Helm of Teleportation,,"This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the",,,gear,wondrous item,,,,,,,,,false,true,rare
 holy_avenger,Holy Avenger,,"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
 While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage
-on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.",,,weapon,weapon (any sword),,,,,,,,,false,true,legendary
+on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.",,"flat_bonus:attack+3;flat_bonus:damage+3;note:An extra 2d10 radiant damage against a fiend or an undead, and a 10-foot aura giving you and friendly creatures advantage on saves against spells",weapon,weapon (any sword),,,,,,,,,false,true,legendary
 horn_of_blasting,Horn of Blasting,,,,,gear,wondrous item,,,,,,,,,false,false,rare
 horn_of_valhalla,Horn of Valhalla,,"If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.",,,gear,wondrous item,,,,,,,,,false,false,very_rare
 horseshoes_of_a_zephyr,Horseshoes of a Zephyr,,"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores difficult terrain. In addition, the creature can move at normal speed for up to 12 hours a day without suffering exhaustion from a forced march.",,,gear,wondrous item,,,,,,,,,false,false,very_rare
@@ -448,12 +449,12 @@ ring_of_x_ray_vision,Ring of X-ray Vision,,"Whenever you use the ring again befo
 robe_of_eyes,Robe of Eyes,,"This robe is adorned with eye like patterns. While you wear the robe, you gain the following benefits:
 •The robe lets you see in all directions, and you have advantage on Wisdom (Perception) checks that rely on sight.
 •You have darkvision out to a range of 120 feet.
-•You can see invisible creatures and objects, as well as see into the Ethereal Plane, out to a range of120 feet.The eyes on the robe can't be closed or averted.Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.",,,gear,wondrous item,,,,,,,,,false,true,rare
+•You can see invisible creatures and objects, as well as see into the Ethereal Plane, out to a range of120 feet.The eyes on the robe can't be closed or averted.Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.",,advantage:skill.perception;note:The advantage covers Perception checks that rely on sight. Darkvision 120 feet and you can see invisible creatures,gear,wondrous item,,,,,,,,,false,true,rare
 robe_of_scintillating_colors,Robe of Scintillating Colors,,"This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or become stunned until the effect ends.",,,gear,wondrous item,,,,,,,,,false,true,very_rare
 robe_of_stars,Robe of Stars,,,,,gear,wondrous item,,,,,,,,,false,true,very_rare
 robe_of_the_archmagi,Robe of the Archmagi,,"•If you aren't wearing armor, your base ArmorClass is 15 + your Dexterity modifier.
 •You have advantage on saving throws against spells and other magical effects.
-•Your spell save DC and spell attack bonus each increase by 2.",,,gear,wondrous item,,,,,,,,,false,true,legendary
+•Your spell save DC and spell attack bonus each increase by 2.",,not is_wearing_armor ? set_override:ac:15+dex_mod;flat_bonus:spell_dc+2;flat_bonus:spell_attack+2;note:Advantage on saving throws against spells and other magical effects,gear,wondrous item,,,,,,,,,false,true,legendary
 robe_of_useful_items,Robe of Useful Items,,"•Dagger
 •Bullseye lantern (filled and lit)
 •Steel mirror
@@ -496,10 +497,10 @@ The sphere obliterates all matter it passes through and all matter that passes t
 staff_of_charming,Staff of Charming,,,,,gear,staff,,,,,,,,,false,true,rare
 staff_of_fire,Staff of Fire,,"You have resistance to fire damage while you hold this staff.
 The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC:
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.",,,gear,staff,,,,,,,,,false,true,very_rare
+The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.",,resist_immune:resist:fire,gear,staff,,,,,,,,,false,true,very_rare
 staff_of_frost,Staff of Frost,,"You have resistance to cold damage while you hold this staff.
 The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC:
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed.",,,gear,staff,,,,,,,,,false,true,very_rare
+The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed.",,resist_immune:resist:cold,gear,staff,,,,,,,,,false,true,very_rare
 staff_of_healing,Staff of Healing,,"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier:
 The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes in a flash of light, lost forever.",,,gear,staff,,,,,,,,,false,true,rare
 staff_of_power,Staff of Power,,"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.
@@ -507,7 +508,7 @@ The staff has 20 charges for the following properties. The staff regains 2d8 + 4
 staff_of_striking,Staff of Striking,,,,,gear,staff,,,,,,,,,false,true,very_rare
 staff_of_swarming_insects,Staff of Swarming Insects,,"This staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.",,,gear,staff,,,,,,,,,false,true,rare
 staff_of_the_magi,Staff of the Magi,,"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
-The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.",,,gear,staff,,,,,,,,,false,true,legendary
+The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.",,flat_bonus:attack+2;flat_bonus:damage+2;flat_bonus:spell_attack+2,gear,staff,,,,,,,,,false,true,legendary
 staff_of_the_python,Staff of the Python,,,,,gear,staff,,,,,,,,,false,true,uncommon
 staff_of_the_woodlands,Staff of the Woodlands,,"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.
 The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.
@@ -532,7 +533,7 @@ can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of 
 talisman_of_pure_good,Talisman of Pure Good,,,,,gear,wondrous item,,,,,,,,,false,true,legendary
 talisman_of_the_sphere,Talisman of the Sphere,,,,,gear,wondrous item,,,,,,,,,false,true,legendary
 talisman_of_ultimate_evil,Talisman of Ultimate Evil,,"If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.
-The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.",,,gear,wondrous item,,,,,,,,,false,true,legendary
+The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.",,flat_bonus:spell_attack+2;note:Usable as a holy symbol by an evil cleric or paladin. 6 charges — an action opens a fissure beneath a good creature,gear,wondrous item,,,,,,,,,false,true,legendary
 tome_of_clear_thought,Tome of Clear Thought,,"This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",,,gear,wondrous item,,,,,,,,,false,false,very_rare
 tome_of_leadership_and_influence,Tome of Leadership and Influence,,"This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",,,gear,wondrous item,,,,,,,,,false,false,very_rare
 tome_of_understanding,Tome of Understanding,,"This book contains intuition and insight exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Wisdom score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",,,gear,wondrous item,,,,,,,,,false,false,very_rare
