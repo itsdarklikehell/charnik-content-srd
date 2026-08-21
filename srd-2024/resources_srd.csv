@@ -1,0 +1,16 @@
+﻿#content-hash: xxh64:c45f6ae6ddd97b7d
+#content-source: SRD 5.2.1
+#content-systems: 5.5e
+#content-url: https://dnd.wizards.com/resources/systems-reference-document
+#content-license: CC-BY-4.0
+#content-updated_at: 2026-08-21
+#content-id: d7c10f0e-049d-4438-9873-325d782a2ea3
+#content-schema: 1
+id,name_en,name_uk,text_en,text_uk,effects
+rage,Rage,,,,
+bardic_inspiration,Bardic Inspiration,,,,
+second_wind,Second Wind,,,,
+action_surge,Action Surge,,,,
+focus,Focus Points,,,,
+persistent_rage,Persistent Rage,,,,
+uncanny_metabolism,Uncanny Metabolism,,,,

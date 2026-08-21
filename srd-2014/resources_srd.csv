@@ -1,0 +1,14 @@
+﻿#content-hash: xxh64:97e87fb1bf3d02c9
+#content-source: SRD 5.1
+#content-systems: 5e
+#content-url: https://dnd.wizards.com/resources/systems-reference-document
+#content-license: CC-BY-4.0
+#content-updated_at: 2026-08-21
+#content-id: f0716095-aa42-4107-9a0d-e1040a2a9773
+#content-schema: 1
+id,name_en,name_uk,text_en,text_uk,effects
+rage,Rage,,,,
+bardic_inspiration,Bardic Inspiration,,,,
+second_wind,Second Wind,,,,
+action_surge,Action Surge,,,,
+ki,Ki Points,,,,
