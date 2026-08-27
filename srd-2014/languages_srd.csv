@@ -1,4 +1,4 @@
-#content-hash: xxh64:7fd7093dcbae65b7
+#content-hash: xxh64:64b4a28a13e84d36
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -6,20 +6,20 @@
 #content-id: 019f6ae3-fd04-7646-ab5f-e26e4f827818
 #content-updated_at: 2026-08-27
 #content-schema: 1
-id,effects,category,speakers,script,name_en,name_uk,text_en,text_uk
-common,,standard,Humans,Common,Common,,Typical speakers: Humans. Script: Common.,
-dwarvish,,standard,Dwarves,Dwarvish,Dwarvish,,Typical speakers: Dwarves. Script: Dwarvish.,
-elvish,,standard,Elves,Elvish,Elvish,,Typical speakers: Elves. Script: Elvish.,
-giant,,standard,"Ogres, giants",Dwarvish,Giant,,"Typical speakers: Ogres, giants. Script: Dwarvish.",
-gnomish,,standard,Gnomes,Dwarvish,Gnomish,,Typical speakers: Gnomes. Script: Dwarvish.,
-goblin,,standard,Goblinoids,Dwarvish,Goblin,,Typical speakers: Goblinoids. Script: Dwarvish.,
-halfling,,standard,Halflings,Common,Halfling,,Typical speakers: Halflings. Script: Common.,
-orc,,standard,Orcs,Dwarvish,Orc,,Typical speakers: Orcs. Script: Dwarvish.,
-abyssal,,exotic,Demons,Infernal,Abyssal,,Typical speakers: Demons. Script: Infernal.,
-celestial,,exotic,Celestials,Celestial,Celestial,,Typical speakers: Celestials. Script: Celestial.,
-draconic,,exotic,"Dragons, dragonborn",Draconic,Draconic,,"Typical speakers: Dragons, dragonborn. Script: Draconic.",
-deep_speech,,exotic,"Aboleths, cloakers",,Deep Speech,,"Typical speakers: Aboleths, cloakers. Script: none.",
-infernal,,exotic,Devils,Infernal,Infernal,,Typical speakers: Devils. Script: Infernal.,
-primordial,,exotic,Elementals,Dwarvish,Primordial,,Typical speakers: Elementals. Script: Dwarvish.,
-sylvan,,exotic,Fey creatures,Elvish,Sylvan,,Typical speakers: Fey creatures. Script: Elvish.,
-undercommon,,exotic,Underworld traders,Elvish,Undercommon,,Typical speakers: Underworld traders. Script: Elvish.,
+id,category,speakers,script,effects,name_en,name_uk,text_en,text_uk
+common,standard,Humans,Common,,Common,,Typical speakers: Humans. Script: Common.,
+dwarvish,standard,Dwarves,Dwarvish,,Dwarvish,,Typical speakers: Dwarves. Script: Dwarvish.,
+elvish,standard,Elves,Elvish,,Elvish,,Typical speakers: Elves. Script: Elvish.,
+giant,standard,"Ogres, giants",Dwarvish,,Giant,,"Typical speakers: Ogres, giants. Script: Dwarvish.",
+gnomish,standard,Gnomes,Dwarvish,,Gnomish,,Typical speakers: Gnomes. Script: Dwarvish.,
+goblin,standard,Goblinoids,Dwarvish,,Goblin,,Typical speakers: Goblinoids. Script: Dwarvish.,
+halfling,standard,Halflings,Common,,Halfling,,Typical speakers: Halflings. Script: Common.,
+orc,standard,Orcs,Dwarvish,,Orc,,Typical speakers: Orcs. Script: Dwarvish.,
+abyssal,exotic,Demons,Infernal,,Abyssal,,Typical speakers: Demons. Script: Infernal.,
+celestial,exotic,Celestials,Celestial,,Celestial,,Typical speakers: Celestials. Script: Celestial.,
+draconic,exotic,"Dragons, dragonborn",Draconic,,Draconic,,"Typical speakers: Dragons, dragonborn. Script: Draconic.",
+deep_speech,exotic,"Aboleths, cloakers",,,Deep Speech,,"Typical speakers: Aboleths, cloakers. Script: none.",
+infernal,exotic,Devils,Infernal,,Infernal,,Typical speakers: Devils. Script: Infernal.,
+primordial,exotic,Elementals,Dwarvish,,Primordial,,Typical speakers: Elementals. Script: Dwarvish.,
+sylvan,exotic,Fey creatures,Elvish,,Sylvan,,Typical speakers: Fey creatures. Script: Elvish.,
+undercommon,exotic,Underworld traders,Elvish,,Undercommon,,Typical speakers: Underworld traders. Script: Elvish.,

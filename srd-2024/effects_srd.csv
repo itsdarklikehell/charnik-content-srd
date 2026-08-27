@@ -1,4 +1,4 @@
-#content-hash: xxh64:ee145d614ecdda42
+#content-hash: xxh64:814ce1b70e6f1a8a
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://www.dndbeyond.com/srd
@@ -6,12 +6,12 @@
 #content-updated_at: 2026-08-27
 #content-id: 0bdcdaf7-01f8-4998-8cd6-d23333c62cb9
 #content-schema: 1
-id,effects,negative,duration_rounds,name_en,name_uk,text_en,text_uk
-bless,flat_bonus:attack+1d4;flat_bonus:saves+1d4,false,10,Bless,,"+1d4 to attack rolls and saving throws while the Bless spell lasts (concentration, up to 1 minute).",
-bane,flat_bonus:attack-1d4;flat_bonus:saves-1d4,true,10,Bane,,"−1d4 to attack rolls and saving throws while the Bane spell lasts (concentration, up to 1 minute).",
-shield_of_faith,flat_bonus:ac+2,false,100,Shield of Faith,,"+2 AC from the Shield of Faith spell (concentration, up to 10 minutes).",
-guidance,flat_bonus:skills+1d4,false,10,Guidance,,"+1d4 to one ability check from the Guidance cantrip (concentration, up to 1 minute).",
-haste,flat_bonus:ac+2;advantage:save.dex;flat_bonus:action+1,false,10,Haste,,"+2 AC, advantage on Dexterity saving throws and one additional action while hasted (concentration, up to 1 minute).",
-half_cover,flat_bonus:ac+2;flat_bonus:save.dex+2,false,,Half cover,,+2 to AC and Dexterity saving throws while behind half cover.,
-three_quarters_cover,flat_bonus:ac+5;flat_bonus:save.dex+5,false,,Three-quarters cover,,+5 to AC and Dexterity saving throws while behind three-quarters cover.,
-rage,apply_condition:rage,false,10,Rage,,"Raging: resistance to bludgeoning, piercing, and slashing; advantage on Strength checks and saves; bonus damage on Strength attacks. Lasts up to 1 minute.",
+id,negative,duration_rounds,effects,name_en,name_uk,text_en,text_uk
+bless,false,10,flat_bonus:attack+1d4;flat_bonus:saves+1d4,Bless,,"+1d4 to attack rolls and saving throws while the Bless spell lasts (concentration, up to 1 minute).",
+bane,true,10,flat_bonus:attack-1d4;flat_bonus:saves-1d4,Bane,,"−1d4 to attack rolls and saving throws while the Bane spell lasts (concentration, up to 1 minute).",
+shield_of_faith,false,100,flat_bonus:ac+2,Shield of Faith,,"+2 AC from the Shield of Faith spell (concentration, up to 10 minutes).",
+guidance,false,10,flat_bonus:skills+1d4,Guidance,,"+1d4 to one ability check from the Guidance cantrip (concentration, up to 1 minute).",
+haste,false,10,flat_bonus:ac+2;advantage:save.dex;flat_bonus:action+1,Haste,,"+2 AC, advantage on Dexterity saving throws and one additional action while hasted (concentration, up to 1 minute).",
+half_cover,false,,flat_bonus:ac+2;flat_bonus:save.dex+2,Half cover,,+2 to AC and Dexterity saving throws while behind half cover.,
+three_quarters_cover,false,,flat_bonus:ac+5;flat_bonus:save.dex+5,Three-quarters cover,,+5 to AC and Dexterity saving throws while behind three-quarters cover.,
+rage,false,10,apply_condition:rage,Rage,,"Raging: resistance to bludgeoning, piercing, and slashing; advantage on Strength checks and saves; bonus damage on Strength attacks. Lasts up to 1 minute.",

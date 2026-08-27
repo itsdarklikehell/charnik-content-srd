@@ -1,4 +1,4 @@
-#content-hash: xxh64:50641e828012b105
+#content-hash: xxh64:9ee06f38633c91d9
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -6,16 +6,16 @@
 #content-id: 019f6ae3-f9eb-7a5a-b347-792978e9197c
 #content-updated_at: 2026-08-27
 #content-schema: 1
-id,effects,class_id,name_en,name_uk,text_en,text_uk
-path_of_the_berserker,,barbarian,Path of the Berserker,,,
-college_of_lore,,bard,College of Lore,,,
-life_domain,,cleric,Life Domain,,,
-circle_of_the_land,,druid,Circle of the Land,,,
-champion,,fighter,Champion,,,
-warrior_of_the_open_hand,,monk,Warrior of the Open Hand,,,
-oath_of_devotion,,paladin,Oath of Devotion,,,
-hunter,,ranger,Hunter,,,
-thief,,rogue,Thief,,,
-draconic_sorcery,,sorcerer,Draconic Sorcery,,,
-fiend_patron,,warlock,Fiend Patron,,,
-evoker,,wizard,Evoker,,,
+id,class_id,effects,name_en,name_uk,text_en,text_uk
+path_of_the_berserker,barbarian,,Path of the Berserker,,,
+college_of_lore,bard,,College of Lore,,,
+life_domain,cleric,,Life Domain,,,
+circle_of_the_land,druid,,Circle of the Land,,,
+champion,fighter,,Champion,,,
+warrior_of_the_open_hand,monk,,Warrior of the Open Hand,,,
+oath_of_devotion,paladin,,Oath of Devotion,,,
+hunter,ranger,,Hunter,,,
+thief,rogue,,Thief,,,
+draconic_sorcery,sorcerer,,Draconic Sorcery,,,
+fiend_patron,warlock,,Fiend Patron,,,
+evoker,wizard,,Evoker,,,

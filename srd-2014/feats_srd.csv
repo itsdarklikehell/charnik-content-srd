@@ -1,4 +1,4 @@
-#content-hash: xxh64:869a64740d1d34ef
+#content-hash: xxh64:49441429f81e4fe2
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -6,8 +6,8 @@
 #content-id: 019f6ae3-fd19-71e4-84e5-32b9acbacb5d
 #content-updated_at: 2026-08-27
 #content-schema: 1
-id,effects,category,prereq,repeatable,name_en,name_uk,text_en,text_uk
-grappler,,general_2014,Strength 13 or higher,false,Grappler,,"Prerequisite: Strength 13 or higher You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
+id,category,prereq,repeatable,effects,name_en,name_uk,text_en,text_uk
+grappler,general_2014,Strength 13 or higher,false,,Grappler,,"Prerequisite: Strength 13 or higher You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
 •You have advantage on attack rolls against a creature you are grappling.
 •You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.
 Six abilities provide a quick description of every creature's physical and mental characteristics:
