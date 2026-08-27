@@ -1,27 +1,28 @@
-﻿#content-hash: xxh64:51e4bc14aba782fe
+﻿#content-hash: xxh64:e95c0c1e0f4e266e
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f98cf-c0ad-776a-9f39-71aa2af270d9
-#content-updated_at: 2026-08-11
-id,name_en,name_uk,text_en,text_uk,effects,category,speakers,script
-common,Common,,,,,standard,,
-common_sign_language,Common Sign Language,,,,,standard,,
-draconic,Draconic,,,,,standard,,
-dwarvish,Dwarvish,,,,,standard,,
-elvish,Elvish,,,,,standard,,
-giant,Giant,,,,,standard,,
-gnomish,Gnomish,,,,,standard,,
-goblin,Goblin,,,,,standard,,
-halfling,Halfling,,,,,standard,,
-orc,Orc,,,,,standard,,
-abyssal,Abyssal,,,,,rare,,
-primordial,Primordial,,"Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.",,,rare,,
-celestial,Celestial,,,,,rare,,
-sylvan,Sylvan,,,,,rare,,
-deep_speech,Deep Speech,,,,,rare,,
-thieves_cant,Thieves' Cant,,,,,rare,,
-druidic,Druidic,,,,,rare,,
-undercommon,Undercommon,,,,,rare,,
-infernal,Infernal,,,,,rare,,
+#content-updated_at: 2026-08-27
+#content-schema: 1
+id,effects,category,speakers,script,name_en,name_uk,text_en,text_uk
+common,,standard,,,Common,,,
+common_sign_language,,standard,,,Common Sign Language,,,
+draconic,,standard,,,Draconic,,,
+dwarvish,,standard,,,Dwarvish,,,
+elvish,,standard,,,Elvish,,,
+giant,,standard,,,Giant,,,
+gnomish,,standard,,,Gnomish,,,
+goblin,,standard,,,Goblin,,,
+halfling,,standard,,,Halfling,,,
+orc,,standard,,,Orc,,,
+abyssal,,rare,,,Abyssal,,,
+primordial,,rare,,,Primordial,,"Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.",
+celestial,,rare,,,Celestial,,,
+sylvan,,rare,,,Sylvan,,,
+deep_speech,,rare,,,Deep Speech,,,
+thieves_cant,,rare,,,Thieves' Cant,,,
+druidic,,rare,,,Druidic,,,
+undercommon,,rare,,,Undercommon,,,
+infernal,,rare,,,Infernal,,,

@@ -1,10 +1,11 @@
-#content-hash: xxh64:2111c3a8abb027b6
+#content-hash: xxh64:76706096447e0443
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fbb4-7106-970f-22a8373d96d0
-#content-updated_at: 2026-08-11
+#content-updated_at: 2026-08-27
+#content-schema: 1
 id,class_id,level,cantrips_known,prepared_known
 bard_1,bard,1,2,4
 bard_2,bard,2,2,5
