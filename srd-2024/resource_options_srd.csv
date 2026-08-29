@@ -1,13 +1,13 @@
-#content-hash: xxh64:d693287dbeeb6ed3
+#content-hash: xxh64:9cee2cdaaed97d8d
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f859d-bfcf-791e-b63f-372e93596042
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-08-29
 #content-schema: 1
 id,resource_id,cost,action,action_type,available,name_en,name_uk,text_en,text_uk
-flurry_of_blows,focus,1,note:Make two Unarmed Strikes,bonus_action,,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",
+flurry_of_blows,focus,1,attack:unarmed_strike:2,bonus_action,,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",
 patient_defense,focus,1,note:Take the Dodge action,bonus_action,,Patient Defense,,Take the Dodge action as a Bonus Action.,
 step_of_the_wind,focus,1,note:Disengage or Dash; jump distance doubled,bonus_action,,Step of the Wind,,Take the Disengage or Dash action as a Bonus Action; your jump distance is doubled.,
 fighter_second_wind,second_wind,1,heal:1d10+class_level.fighter,bonus_action,,Second Wind,,Regain Hit Points equal to 1d10 plus your Fighter level.,
