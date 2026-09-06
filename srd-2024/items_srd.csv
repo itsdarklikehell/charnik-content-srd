@@ -1,4 +1,4 @@
-#content-hash: xxh64:27f24e9c95c805df
+#content-hash: xxh64:383f56d776ea8e27
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -1127,7 +1127,7 @@ in the Sphere must succeed on a DC 15 Dexterity saving throw or take 5d4 Force d
 An enclosed creature can take a Utilize action to push against the sphere's wall, moving the sphere up to half the creature's Speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.",
 bead_of_nourishment,wondrous,,,,,common,,,Bead of Nourishment,,"_Wondrous Item, Common_
 This flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of Rations.",
-belt_of_dwarvenkind,wondrous,attunement,,,"flat_bonus:con+2;note:The increase cannot take your Constitution above 20 — set it by hand if it would. Advantage on Charisma (Persuasion) checks to interact with dwarves and duergar. If you are neither — resistance to Poison damage, advantage on saves against the Poisoned condition, and Darkvision to 60 feet",rare,,,Belt of Dwarvenkind,,"_Wondrous Item, Rare (Requires Attunement)_
+belt_of_dwarvenkind,wondrous,attunement,,,"flat_bonus:con+2;set_override:con:20:cap;note:Advantage on Charisma (Persuasion) checks to interact with dwarves and duergar. If you are neither — resistance to Poison damage, advantage on saves against the Poisoned condition, and Darkvision to 60 feet",rare,,,Belt of Dwarvenkind,,"_Wondrous Item, Rare (Requires Attunement)_
 While wearing this belt, you gain the following benefits:
 **Dwarvish.** You know Dwarvish.
 **Friend of Dwarvenkind.** You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.
