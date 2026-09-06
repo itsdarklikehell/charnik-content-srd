@@ -1,10 +1,10 @@
-#content-hash: xxh64:3b4effef1c839de9
+#content-hash: xxh64:75b4b5d5c2dda966
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-06
 #content-schema: 1
 id,class_id,level,resource,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -393,7 +393,7 @@ In addition, immediately after you score a Critical Hit, you can move up to half
 champion_additional_fighting_style,fighter,7,,champion,,,Additional Fighting Style,,You gain another Fighting Style feat of your choice.,
 champion_heroic_warrior,fighter,10,,champion,,,Heroic Warrior,,"The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.",
 champion_superior_critical,fighter,15,,champion,,,Superior Critical,,Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.,
-champion_survivor,fighter,18,,champion,,,Survivor,,"You attain the pinnacle of resilience in battle, giving you these benefits.
+champion_survivor,fighter,18,,champion,,is_bloodied and hp>=1 ? on_event:turn_start:heal:5+con_mod,Survivor,,"You attain the pinnacle of resilience in battle, giving you these benefits.
 _Defy Death._ You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.
 _Heroic Rally._ At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.",
 monk_martial_arts,monk,1,,,,"grant_roll:martial_arts:1d step(class_level.monk, 1->6, 5->8, 11->10, 17->12)",Martial Arts,,"Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
