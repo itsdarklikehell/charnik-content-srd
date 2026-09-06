@@ -1,4 +1,4 @@
-#content-hash: xxh64:4390942a7fc3895c
+#content-hash: xxh64:bb9d9d213f7a1d6f
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -292,7 +292,7 @@ rogue_roguish_archetype,rogue,3,,,,,Roguish Archetype,,"At 3rd level, you choose
 rogue_ability_score_improvement,rogue,4,,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 rogue_uncanny_dodge,rogue,5,,,,,Uncanny Dodge,,"Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.",
 rogue_evasion,rogue,7,,,,,Evasion,,"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
-rogue_reliable_talent,rogue,11,,,,,Reliable Talent,,"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.",
+rogue_reliable_talent,rogue,11,,,,min_die:skills:proficient:10,Reliable Talent,,"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.",
 rogue_blindsense,rogue,14,,,,,Blindsense,,"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10
 feet of you.",
 rogue_slippery_mind,rogue,15,,,,grant_proficiency:save.wis,Slippery Mind,,"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.",
