@@ -1,4 +1,4 @@
-#content-hash: xxh64:73f598cbca09c59c
+#content-hash: xxh64:ce2d824acdd88570
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -7,9 +7,27 @@
 #content-schema: 2
 #content-updated_at: 2026-09-06
 id,species_id,kind,option_label,effects,name_en,name_uk,text_en,text_uk
+dragonborn_black,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:acid,Black,,Your Breath Weapon and Damage Resistance are Acid.,
+dragonborn_gold,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:fire,Gold,,Your Breath Weapon and Damage Resistance are Fire.,
+dragonborn_blue,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:lightning,Blue,,Your Breath Weapon and Damage Resistance are Lightning.,
+dragonborn_green,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:poison,Green,,Your Breath Weapon and Damage Resistance are Poison.,
+dragonborn_brass,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:fire,Brass,,Your Breath Weapon and Damage Resistance are Fire.,
+dragonborn_red,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:fire,Red,,Your Breath Weapon and Damage Resistance are Fire.,
+dragonborn_bronze,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:lightning,Bronze,,Your Breath Weapon and Damage Resistance are Lightning.,
+dragonborn_silver,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:cold,Silver,,Your Breath Weapon and Damage Resistance are Cold.,
+dragonborn_copper,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:acid,Copper,,Your Breath Weapon and Damage Resistance are Acid.,
+dragonborn_white,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:cold,White,,Your Breath Weapon and Damage Resistance are Cold.,
 elf_drow,elf,lineage,Elven Lineage,,Drow,,The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.,
 elf_high_elf,elf,lineage,Elven Lineage,,High Elf,,"You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
 elf_wood_elf,elf,lineage,Elven Lineage,set_override:speed:35,Wood Elf,,Your Speed increases to 35 feet. You also know the Druidcraft cantrip.,
+gnome_forest_gnome,gnome,lineage,Gnomish Lineage,,Forest Gnome,,"You know the _Minor Illusion_ cantrip. You also always have the _Speak with Animals_ spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.",
+gnome_rock_gnome,gnome,lineage,Gnomish Lineage,,Rock Gnome,,"You know the _Mending_ and _Prestidigitation_ cantrips. In addition, you can spend 10 minutes casting _Prestidigitation_ to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from _Prestidigitation_; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
+goliath_clouds_jaunt,goliath,ancestry,Giant Ancestry,grant_resource:goliath_clouds_jaunt:proficiency_bonus:long,Cloud's Jaunt (Cloud Giant),,"As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.",
+goliath_fires_burn,goliath,ancestry,Giant Ancestry,grant_resource:goliath_fires_burn:proficiency_bonus:long,Fire's Burn (Fire Giant),,"When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.",
+goliath_frosts_chill,goliath,ancestry,Giant Ancestry,grant_resource:goliath_frosts_chill:proficiency_bonus:long,Frost's Chill (Frost Giant),,"When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.",
+goliath_hills_tumble,goliath,ancestry,Giant Ancestry,grant_resource:goliath_hills_tumble:proficiency_bonus:long,Hill's Tumble (Hill Giant),,"When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.",
+goliath_stones_endurance,goliath,ancestry,Giant Ancestry,grant_resource:goliath_stones_endurance:proficiency_bonus:long,Stone's Endurance (Stone Giant),,"When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.",
+goliath_storms_thunder,goliath,ancestry,Giant Ancestry,grant_resource:goliath_storms_thunder:proficiency_bonus:long,Storm's Thunder (Storm Giant),,"When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature. _Large Form._ Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest. _Powerful Build._ You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.",
 tiefling_abyssal,tiefling,legacy,Fiendish Legacy,damage_sensitivity:resist:poison,Abyssal,,You have Resistance to Poison damage. You also know the Poison Spray cantrip.,
 tiefling_chthonic,tiefling,legacy,Fiendish Legacy,damage_sensitivity:resist:necrotic,Chthonic,,You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.,
 tiefling_infernal,tiefling,legacy,Fiendish Legacy,damage_sensitivity:resist:fire,Infernal,,You have Resistance to Fire damage. You also know the Fire Bolt cantrip.,
