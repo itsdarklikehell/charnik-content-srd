@@ -1,11 +1,11 @@
-#content-hash: xxh64:38da95474c8884a6
+#content-hash: xxh64:475fef47c6fe34c7
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fa92-7ecb-9807-4042842f8ba9
 #content-schema: 2
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-06
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk
 club,weapon,"simple, melee, light, mastery:slow",1d4 bludgeoning,,,,1 SP,2,Club,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60, mastery:nick",1d4 piercing,,,,2 GP,1,Dagger,,,
@@ -880,7 +880,7 @@ A creature in the compartment can take a Utilize action to move as many as two o
 </table>",
 armor_1_2_or_3,armor,,,,,very_rare,,,"Armor, +1, +2, or +3",,"_Armor (Any Light, Medium, or Heavy), Rare (+1), Very Rare (+2), or Legendary (+3)_
 You have a bonus to Armor Class while wearing this armor. The bonus is determined by its rarity.",
-armor_of_invulnerability,armor,attunement,,plate_armor,"resist_immune:resist:bludgeoning;resist_immune:resist:piercing;resist_immune:resist:slashing;note:Metal Shell (Magic action, once per dawn) — immunity to bludgeoning, piercing and slashing damage for 10 minutes",legendary,,,Armor of Invulnerability,,"_Armor (Plate Armor), Legendary (Requires Attunement)_
+armor_of_invulnerability,armor,attunement,,plate_armor,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;note:Metal Shell (Magic action, once per dawn) — immunity to bludgeoning, piercing and slashing damage for 10 minutes",legendary,,,Armor of Invulnerability,,"_Armor (Plate Armor), Legendary (Requires Attunement)_
 You have Resistance to Bludgeoning, Piercing, and Slashing damage while you wear this armor.
 **_Metal Shell._** You can take a Magic action to give yourself Immunity to Bludgeoning, Piercing, and Slashing damage for 10 minutes or until you are no longer wearing the armor. Once this property is used, it can't be used again until the next dawn.",
 armor_of_resistance,armor,attunement,,,,rare,,,Armor of Resistance,,"_Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)_
@@ -1189,7 +1189,7 @@ When you've used the boots' property for a total of 10 minutes, the magic ceases
 boots_of_striding_and_springing,wondrous,attunement,,,"set_override:speed:30:floor;note:Your Speed is not reduced by excess carrying weight or Heavy Armor, and once per turn you can jump 30 feet for 10 feet of movement",uncommon,,,Boots of Striding and Springing,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While you wear these boots, your Speed becomes 30 feet unless your Speed is higher, and your Speed isn't reduced by you carrying weight in excess of your carrying capacity or wearing Heavy Armor.
 Once on each of your turns, you can jump up to 30 feet by spending only 10 feet of movement.",
-boots_of_the_winterlands,wondrous,attunement,,,resist_immune:resist:cold,uncommon,,,Boots of the Winterlands,,"_Wondrous Item, Uncommon (Requires Attunement)_
+boots_of_the_winterlands,wondrous,attunement,,,damage_sensitivity:resist:cold,uncommon,,,Boots of the Winterlands,,"_Wondrous Item, Uncommon (Requires Attunement)_
 These furred boots are snug and feel warm. While wearing them, you gain the following benefits.
 _Cold Resistance._ You have Resistance to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection.
 _Winter Strider._ You ignore Difficult Terrain created by ice or snow.",
@@ -1202,7 +1202,7 @@ bracers_of_defense,wondrous,attunement,,,not is_wearing_armor and not is_wearing
 While wearing these bracers, you gain a +2 bonus to Armor Class if you are wearing no armor and using no Shield.",
 brazier_of_commanding_fire_elementals,wondrous,,,,,rare,,,Brazier of Commanding Fire Elementals,,"_Wondrous Item, Rare_
 While you are within 5 feet of this brazier, you can take a Magic action to summon a Fire Elemental. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The brazier can't be used this way again until the next dawn.",
-brooch_of_shielding,wondrous,attunement,,,resist_immune:resist:force;note:Immunity to damage from the Magic Missile spell,uncommon,,,Brooch of Shielding,,"_Wondrous Item, Uncommon (Requires Attunement)_
+brooch_of_shielding,wondrous,attunement,,,damage_sensitivity:resist:force;note:Immunity to damage from the Magic Missile spell,uncommon,,,Brooch of Shielding,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the _Magic Missile_ spell.",
 broom_of_flying,wondrous,attunement,,,,uncommon,,,Broom of Flying,,"_Wondrous Item, Uncommon (Requires Attunement)_
 This wooden broom functions like a mundane broom until you stand astride it and take a Magic action to make it hover beneath you, at which time it can be ridden in the air. It has a Fly Speed of 50 feet. It can carry up to 400 pounds, but its Fly Speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land or when you're no longer riding it.
@@ -1321,7 +1321,7 @@ This hollow metal tube measures about 1 foot long and weighs 1 pound. As a Magic
 The chime can be used 10 times. After the tenth time, it cracks and becomes useless.",
 circlet_of_blasting,wondrous,,,,,uncommon,,,Circlet of Blasting,,"_Wondrous Item, Uncommon_
 While wearing this circlet, you can cast _Scorching Ray_ with it (+5 to hit). The circlet can't cast this spell again until the next dawn.",
-cloak_of_arachnida,wondrous,attunement,,,"resist_immune:resist:poison;note:Climb Speed equal to your Speed, cannot be caught in webs, and can cast Web once per day",very_rare,,,Cloak of Arachnida,,"_Wondrous Item, Very Rare (Requires Attunement)_
+cloak_of_arachnida,wondrous,attunement,,,"damage_sensitivity:resist:poison;note:Climb Speed equal to your Speed, cannot be caught in webs, and can cast Web once per day",very_rare,,,Cloak of Arachnida,,"_Wondrous Item, Very Rare (Requires Attunement)_
 This fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.
 _Poison Resistance._ You have Resistance to Poison damage.
 _Spider Climb._ You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.
@@ -1806,7 +1806,7 @@ This object appears as a wooden box that measures 12 inches long, 6 inches wide,
 **Third Command Word.** The _Folding Boat_ folds back into a box if no creatures are aboard. Any objects in the vessel that can't fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.
 When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.
 Statistics for the Rowboat and Keelboat appear in ""Equipment."" If either vessel is reduced to 0 Hit Points, the _Folding Boat_ is destroyed.",
-frost_brand,weapon,attunement,,,"flat_bonus:damage:cold+1d6;resist_immune:resist:fire;note:In freezing temperatures the weapon sheds light, and drawing it extinguishes nonmagical flames within 30 feet",very_rare,,,Frost Brand,,"_Weapon (Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword), Very Rare (Requires Attunement)_
+frost_brand,weapon,attunement,,,"flat_bonus:damage:cold+1d6;damage_sensitivity:resist:fire;note:In freezing temperatures the weapon sheds light, and drawing it extinguishes nonmagical flames within 30 feet",very_rare,,,Frost Brand,,"_Weapon (Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword), Very Rare (Requires Attunement)_
 When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
 In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
 When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can't be used again for 1 hour.",
@@ -2332,7 +2332,7 @@ While this pearl is on your person, you can take a Magic action to regain one ex
 periapt_of_health,wondrous,attunement,,,,uncommon,,,Periapt of Health,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.
 In addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant.",
-periapt_of_proof_against_poison,wondrous,attunement,,,resist_immune:immune:poison;note:Immunity to the Poisoned condition,rare,,,Periapt of Proof against Poison,,"_Wondrous Item, Rare (Requires Attunement)_
+periapt_of_proof_against_poison,wondrous,attunement,,,damage_sensitivity:immune:poison;note:Immunity to the Poisoned condition,rare,,,Periapt of Proof against Poison,,"_Wondrous Item, Rare (Requires Attunement)_
 This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the Poisoned condition and Poison damage.",
 periapt_of_wound_closure,wondrous,attunement,,,,uncommon,,,Periapt of Wound Closure,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this pendant, you gain the following benefits.
@@ -2983,7 +2983,7 @@ This staff has 10 charges. While holding the staff, you can use any of its prope
 **Reflect Enchantment.** If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a Reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
 **Resist Enchantment.** If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn.
 _Regaining Charges._ The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.",
-staff_of_fire,staff,attunement,,,resist_immune:resist:fire,very_rare,,,Staff of Fire,,"_Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)_
+staff_of_fire,staff,attunement,,,damage_sensitivity:resist:fire,very_rare,,,Staff of Fire,,"_Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)_
 You have Resistance to Fire damage while you hold this staff.
 _Spells._ The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
 <table>
@@ -3011,7 +3011,7 @@ _Spells._ The staff has 10 charges. While holding the staff, you can cast one of
 </tbody>
 </table>
 _Regaining Charges._ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed.",
-staff_of_frost,staff,attunement,,,resist_immune:resist:cold,very_rare,,,Staff of Frost,,"_Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)_
+staff_of_frost,staff,attunement,,,damage_sensitivity:resist:cold,very_rare,,,Staff of Frost,,"_Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)_
 You have Resistance to Cold damage while you hold this staff.
 _Spells._ The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
 <table>

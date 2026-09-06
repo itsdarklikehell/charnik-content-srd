@@ -1,15 +1,15 @@
-#content-hash: xxh64:d11acf2de4ac1baa
+#content-hash: xxh64:73f598cbca09c59c
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f976-7552-b17a-956ec8debbde
 #content-schema: 2
-#content-updated_at: 2026-08-30
+#content-updated_at: 2026-09-06
 id,species_id,kind,option_label,effects,name_en,name_uk,text_en,text_uk
 elf_drow,elf,lineage,Elven Lineage,,Drow,,The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.,
 elf_high_elf,elf,lineage,Elven Lineage,,High Elf,,"You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
 elf_wood_elf,elf,lineage,Elven Lineage,set_override:speed:35,Wood Elf,,Your Speed increases to 35 feet. You also know the Druidcraft cantrip.,
-tiefling_abyssal,tiefling,legacy,Fiendish Legacy,resist_immune:resist:poison,Abyssal,,You have Resistance to Poison damage. You also know the Poison Spray cantrip.,
-tiefling_chthonic,tiefling,legacy,Fiendish Legacy,resist_immune:resist:necrotic,Chthonic,,You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.,
-tiefling_infernal,tiefling,legacy,Fiendish Legacy,resist_immune:resist:fire,Infernal,,You have Resistance to Fire damage. You also know the Fire Bolt cantrip.,
+tiefling_abyssal,tiefling,legacy,Fiendish Legacy,damage_sensitivity:resist:poison,Abyssal,,You have Resistance to Poison damage. You also know the Poison Spray cantrip.,
+tiefling_chthonic,tiefling,legacy,Fiendish Legacy,damage_sensitivity:resist:necrotic,Chthonic,,You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.,
+tiefling_infernal,tiefling,legacy,Fiendish Legacy,damage_sensitivity:resist:fire,Infernal,,You have Resistance to Fire damage. You also know the Fire Bolt cantrip.,

@@ -1,11 +1,11 @@
-#content-hash: xxh64:22da26fc981d7ad9
+#content-hash: xxh64:4fc6fda82a7a6b99
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd4e-7cbd-ab16-da8d50473527
 #content-schema: 2
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-06
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk
 club,weapon,"simple, melee, light",1d4 bludgeoning,,,,1 sp,2,Club,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60",1d4 piercing,,,,2 gp,1,Dagger,,,
@@ -201,7 +201,7 @@ boots_of_elvenkind,wondrous,,,,advantage:skill.stealth;note:Only checks that rel
 boots_of_levitation,wondrous,attunement,,,,rare,,,Boots of Levitation,,,
 boots_of_speed,wondrous,attunement,,,,rare,,,Boots of Speed,,,
 boots_of_striding_and_springing,wondrous,attunement,,,,uncommon,,,Boots of Striding and Springing,,,
-boots_of_the_winterlands,wondrous,attunement,,,resist_immune:resist:cold,uncommon,,,Boots of the Winterlands,,"These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:
+boots_of_the_winterlands,wondrous,attunement,,,damage_sensitivity:resist:cold,uncommon,,,Boots of the Winterlands,,"These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:
 •You have resistance to cold damage.
 •You ignore difficult terrain created by ice or snow.
 •You can tolerate temperatures as low as −50degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as −100 degreesFahrenheit.",
@@ -211,7 +211,7 @@ bracers_of_archery,wondrous,attunement,,,,uncommon,,,Bracers of Archery,,"While 
 bracers_of_defense,wondrous,attunement,,,not is_wearing_armor and not is_wearing_shield ? flat_bonus:ac+2,rare,,,Bracers of Defense,,"While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",
 brazier_of_commanding_fire_elementals,wondrous,,,,,rare,,,Brazier of Commanding Fire Elementals,,"While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a fire elemental, as if you had cast the
 The brazier weighs 5 pounds.",
-brooch_of_shielding,wondrous,attunement,,,resist_immune:resist:force,uncommon,,,Brooch of Shielding,,"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the",
+brooch_of_shielding,wondrous,attunement,,,damage_sensitivity:resist:force,uncommon,,,Brooch of Shielding,,"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the",
 broom_of_flying,wondrous,,,,,uncommon,,,Broom of Flying,,,
 candle_of_invocation,wondrous,attunement,,,,very_rare,,,Candle of Invocation,,"The candle's magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle's total burn time. While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st-level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.
 Alternatively, when you light the candle for the first time, you can cast the",
@@ -224,7 +224,7 @@ This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. I
 chime_of_opening,wondrous,,,,,rare,,,Chime of Opening,,"This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime
 issues a clear tone, and one lock or latch on the object opens unless the sound can't reach the object. If no locks or latches remain, the object itself opens. The chime can be used ten times. After the tenth time, it cracks and becomes useless.",
 circlet_of_blasting,wondrous,,,,,uncommon,,,Circlet of Blasting,,,
-cloak_of_arachnida,wondrous,attunement,,,"resist_immune:resist:poison;note:Climbing speed equal to your walking speed, and cannot be caught in webs",very_rare,,,Cloak of Arachnida,,"•You have resistance to poison damage.
+cloak_of_arachnida,wondrous,attunement,,,"damage_sensitivity:resist:poison;note:Climbing speed equal to your walking speed, and cannot be caught in webs",very_rare,,,Cloak of Arachnida,,"•You have resistance to poison damage.
 •You have a climbing speed equal to your walking speed.
 •You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
 •You can't be caught in webs of any sort and can move through webs as if they were difficult terrain.",
@@ -495,10 +495,10 @@ spellguard_shield,shield,attunement,,shield,,very_rare,,,Spellguard Shield,,"Whi
 sphere_of_annihilation,wondrous,,,,,legendary,,,Sphere of Annihilation,,"This 2-foot-diameter black sphere is a hole in the multiverse, hovering in space and stabilized by a magical field surrounding it.
 The sphere obliterates all matter it passes through and all matter that passes through it. Artifacts are the exception. Unless an artifact is susceptible to damage from a",
 staff_of_charming,staff,attunement,,,,rare,,,Staff of Charming,,,
-staff_of_fire,staff,attunement,,,resist_immune:resist:fire,very_rare,,,Staff of Fire,,"You have resistance to fire damage while you hold this staff.
+staff_of_fire,staff,attunement,,,damage_sensitivity:resist:fire,very_rare,,,Staff of Fire,,"You have resistance to fire damage while you hold this staff.
 The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC:
 The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.",
-staff_of_frost,staff,attunement,,,resist_immune:resist:cold,very_rare,,,Staff of Frost,,"You have resistance to cold damage while you hold this staff.
+staff_of_frost,staff,attunement,,,damage_sensitivity:resist:cold,very_rare,,,Staff of Frost,,"You have resistance to cold damage while you hold this staff.
 The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC:
 The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed.",
 staff_of_healing,staff,attunement,,,,rare,,,Staff of Healing,,"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier:

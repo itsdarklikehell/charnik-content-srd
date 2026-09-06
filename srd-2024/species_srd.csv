@@ -1,11 +1,11 @@
-#content-hash: xxh64:695c68b07a73fa36
+#content-hash: xxh64:59dc65294c659766
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f974-785c-b826-6cb6a9164f4f
 #content-schema: 2
-#content-updated_at: 2026-08-30
+#content-updated_at: 2026-09-06
 id,size,speed,creature_type,effects,name_en,name_uk,text_en,text_uk
 dragonborn,medium,30,humanoid,,Dragonborn,,"As a Dragonborn, you have these special traits.
 _Draconic Ancestry._ Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.
@@ -57,7 +57,7 @@ You can use this Breath Weapon a number of times equal to your Proficiency Bonus
 _Damage Resistance._ You have Resistance to the damage type determined by your Draconic Ancestry trait.
 _Darkvision._ You have Darkvision with a range of 60 feet.
 _Draconic Flight._ When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.",
-dwarf,medium,30,humanoid,resist_immune:resist:poison,Dwarf,,"As a Dwarf, you have these special traits.
+dwarf,medium,30,humanoid,damage_sensitivity:resist:poison,Dwarf,,"As a Dwarf, you have these special traits.
 _Darkvision._ You have Darkvision with a range of 120 feet.
 _Dwarven Resilience._ You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.
 _Dwarven Toughness._ Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
