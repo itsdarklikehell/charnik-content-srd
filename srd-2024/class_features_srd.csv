@@ -1,4 +1,4 @@
-#content-hash: xxh64:04a499773183e9b7
+#content-hash: xxh64:6cf696257998333d
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -28,7 +28,7 @@ barbarian_barbarian_subclass,barbarian,3,,,,,Barbarian Subclass,,"You gain a Bar
 barbarian_primal_knowledge,barbarian,3,,,,,Primal Knowledge,,"You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.
 In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.",
 barbarian_ability_score_improvement,barbarian,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16.",
-barbarian_extra_attack,barbarian,5,,,,,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
+barbarian_extra_attack,barbarian,5,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
 barbarian_fast_movement,barbarian,5,,,,armor_type!=heavy ? flat_bonus:speed+10,Fast Movement,,Your speed increases by 10 feet while you aren't wearing Heavy armor.,
 barbarian_feral_instinct,barbarian,7,,,,advantage:initiative,Feral Instinct,,Your instincts are so honed that you have Advantage on Initiative rolls.,
 barbarian_instinctive_pounce,barbarian,7,,,,,Instinctive Pounce,,"As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.",
@@ -378,15 +378,15 @@ Once you use this feature, you can't do so again until you finish a Short or Lon
 fighter_tactical_mind,fighter,2,,,,,Tactical Mind,,"You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.",
 fighter_fighter_subclass,fighter,3,,,,,Fighter Subclass,,"You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.",
 fighter_ability_score_improvement,fighter,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16.",
-fighter_extra_attack,fighter,5,,,,,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
+fighter_extra_attack,fighter,5,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
 fighter_tactical_shift,fighter,5,,,,,Tactical Shift,,"Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.",
 fighter_indomitable,fighter,9,,,,,Indomitable,,"If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.
 You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.",
 fighter_tactical_master,fighter,9,,,,,Tactical Master,,"When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.",
-fighter_two_extra_attacks,fighter,11,,,,,Two Extra Attacks,,You can attack three times instead of once whenever you take the Attack action on your turn.,
+fighter_two_extra_attacks,fighter,11,,,,set_override:attacks:3:floor,Two Extra Attacks,,You can attack three times instead of once whenever you take the Attack action on your turn.,
 fighter_studied_attacks,fighter,13,,,,,Studied Attacks,,"You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.",
 fighter_epic_boon,fighter,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.",
-fighter_three_extra_attacks,fighter,20,,,,,Three Extra Attacks,,You can attack four times instead of once whenever you take the Attack action on your turn.,
+fighter_three_extra_attacks,fighter,20,,,,set_override:attacks:4:floor,Three Extra Attacks,,You can attack four times instead of once whenever you take the Attack action on your turn.,
 champion_improved_critical,fighter,3,,champion,,,Improved Critical,,Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.,
 champion_remarkable_athlete,fighter,3,,champion,,advantage:initiative;advantage:skill.athletics,Remarkable Athlete,,"Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.
 In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.",
@@ -420,7 +420,7 @@ If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of 
 monk_monk_subclass,monk,3,,,,,Monk Subclass,,"You gain a Monk subclass of your choice. The Warrior of the Open Hand subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.",
 monk_ability_score_improvement,monk,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16.",
 monk_slow_fall,monk,4,,,,,Slow Fall,,You can take a Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level.,
-monk_extra_attack,monk,5,,,,,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
+monk_extra_attack,monk,5,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
 monk_stunning_strike,monk,5,,,,,Stunning Strike,,"Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.",
 monk_empowered_strikes,monk,6,,,,,Empowered Strikes,,"Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.",
 monk_evasion,monk,7,,,,,Evasion,,"When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.
@@ -477,7 +477,7 @@ You can use this class's Channel Divinity twice. You regain one of its expended 
 _Divine Sense._ As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the _Hallow_ spell.",
 paladin_paladin_subclass,paladin,3,,,,,Paladin Subclass,,"You gain a Paladin subclass of your choice. The Oath of Devotion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.",
 paladin_ability_score_improvement,paladin,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.",
-paladin_extra_attack,paladin,5,,,,,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
+paladin_extra_attack,paladin,5,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
 paladin_faithful_steed,paladin,5,,,,,Faithful Steed,,"You can call on the aid of an otherworldly steed. You always have the _Find Steed_ spell prepared.
 You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.",
 paladin_aura_of_protection,paladin,6,,,,,Aura of Protection,,"You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.
@@ -550,7 +550,7 @@ ranger_fighting_style,ranger,2,,,,,Fighting Style,,"You gain a Fighting Style fe
 _Druidic Warrior._ You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",
 ranger_ranger_subclass,ranger,3,,,,,Ranger Subclass,,"You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.",
 ranger_ability_score_improvement,ranger,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.",
-ranger_extra_attack,ranger,5,,,,,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
+ranger_extra_attack,ranger,5,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
 ranger_roving,ranger,6,,,,armor_type!=heavy ? flat_bonus:speed+10,Roving,,Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.,
 ranger_expertise,ranger,9,,,9:2,,Expertise,,Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.,
 ranger_tireless,ranger,10,,,,,Tireless,,"Primal forces now help fuel you on your journeys, granting you the following benefits.
