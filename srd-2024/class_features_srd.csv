@@ -1,4 +1,4 @@
-#content-hash: xxh64:75b4b5d5c2dda966
+#content-hash: xxh64:04a499773183e9b7
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -19,18 +19,18 @@ _Duration._ The Rage lasts until the end of your next turn, and it ends early if
 - Force an enemy to make a saving throw.
 - Take a Bonus Action to extend your Rage.
 Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
-barbarian_unarmored_defense,barbarian,1,,,,,Unarmored Defense,,"While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",
+barbarian_unarmored_defense,barbarian,1,,,,not is_wearing_armor ? set_override:ac:10+dex_mod+con_mod,Unarmored Defense,,"While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",
 barbarian_weapon_mastery,barbarian,1,,,,,Weapon Mastery,,"Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.",
-barbarian_danger_sense,barbarian,2,,,,,Danger Sense,,"You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.",
+barbarian_danger_sense,barbarian,2,,,,not has_condition.incapacitated ? advantage:save.dex,Danger Sense,,"You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.",
 barbarian_reckless_attack,barbarian,2,,,,,Reckless Attack,,"You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.",
 barbarian_barbarian_subclass,barbarian,3,,,,,Barbarian Subclass,,"You gain a Barbarian subclass of your choice. The Path of the Berserker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower.",
 barbarian_primal_knowledge,barbarian,3,,,,,Primal Knowledge,,"You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.
 In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.",
 barbarian_ability_score_improvement,barbarian,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16.",
 barbarian_extra_attack,barbarian,5,,,,,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
-barbarian_fast_movement,barbarian,5,,,,,Fast Movement,,Your speed increases by 10 feet while you aren't wearing Heavy armor.,
-barbarian_feral_instinct,barbarian,7,,,,,Feral Instinct,,Your instincts are so honed that you have Advantage on Initiative rolls.,
+barbarian_fast_movement,barbarian,5,,,,armor_type!=heavy ? flat_bonus:speed+10,Fast Movement,,Your speed increases by 10 feet while you aren't wearing Heavy armor.,
+barbarian_feral_instinct,barbarian,7,,,,advantage:initiative,Feral Instinct,,Your instincts are so honed that you have Advantage on Initiative rolls.,
 barbarian_instinctive_pounce,barbarian,7,,,,,Instinctive Pounce,,"As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.",
 barbarian_brutal_strike,barbarian,9,,,,,Brutal Strike,,"If you use Reckless Attack, you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.
 _Forceful Blow._ The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.
@@ -388,7 +388,7 @@ fighter_studied_attacks,fighter,13,,,,,Studied Attacks,,"You study your opponent
 fighter_epic_boon,fighter,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.",
 fighter_three_extra_attacks,fighter,20,,,,,Three Extra Attacks,,You can attack four times instead of once whenever you take the Attack action on your turn.,
 champion_improved_critical,fighter,3,,champion,,,Improved Critical,,Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.,
-champion_remarkable_athlete,fighter,3,,champion,,,Remarkable Athlete,,"Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.
+champion_remarkable_athlete,fighter,3,,champion,,advantage:initiative;advantage:skill.athletics,Remarkable Athlete,,"Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.
 In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.",
 champion_additional_fighting_style,fighter,7,,champion,,,Additional Fighting Style,,You gain another Fighting Style feat of your choice.,
 champion_heroic_warrior,fighter,10,,champion,,,Heroic Warrior,,"The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.",
@@ -403,7 +403,7 @@ You gain the following benefits while you are unarmed or wielding only Monk weap
 _Bonus Unarmed Strike._ You can make an Unarmed Strike as a Bonus Action.
 _Martial Arts Die._ You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.
 _Dexterous Attacks._ You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.",
-monk_unarmored_defense,monk,1,,,,,Unarmored Defense,,"While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",
+monk_unarmored_defense,monk,1,,,,not is_wearing_armor and not is_wearing_shield ? set_override:ac:10+dex_mod+wis_mod,Unarmored Defense,,"While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",
 monk_monks_focus,monk,2,,,,grant_resource:focus:class_level.monk:short,Monk's Focus,,"Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.
 You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
 When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.
@@ -551,7 +551,7 @@ _Druidic Warrior._ You learn two Druid cantrips of your choice (see the Druid cl
 ranger_ranger_subclass,ranger,3,,,,,Ranger Subclass,,"You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.",
 ranger_ability_score_improvement,ranger,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.",
 ranger_extra_attack,ranger,5,,,,,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
-ranger_roving,ranger,6,,,,,Roving,,Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.,
+ranger_roving,ranger,6,,,,armor_type!=heavy ? flat_bonus:speed+10,Roving,,Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.,
 ranger_expertise,ranger,9,,,9:2,,Expertise,,Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.,
 ranger_tireless,ranger,10,,,,,Tireless,,"Primal forces now help fuel you on your journeys, granting you the following benefits.
 _Temporary Hit Points._ As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
@@ -681,7 +681,7 @@ sorcerer_sorcery_incarnate,sorcerer,7,,,,,Sorcery Incarnate,,"If you have no use
 In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.",
 sorcerer_epic_boon,sorcerer,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",
 sorcerer_arcane_apotheosis,sorcerer,20,,,,,Arcane Apotheosis,,"While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.",
-draconic_sorcery_draconic_resilience,sorcerer,3,,draconic_sorcery,,,Draconic Resilience,,"The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
+draconic_sorcery_draconic_resilience,sorcerer,3,,draconic_sorcery,,not is_wearing_armor ? set_override:ac:10+dex_mod+cha_mod,Draconic Resilience,,"The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
 Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.",
 draconic_sorcery_draconic_spells,sorcerer,3,,draconic_sorcery,,,Draconic Spells,,"When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.
 **Draconic Spells**
