@@ -1,4 +1,4 @@
-#content-hash: xxh64:6fcaf214aac6258b
+#content-hash: xxh64:813b26118152b58e
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -177,7 +177,7 @@ monk_evasion,monk,7,,,,,Evasion,,"At 7th level, your instinctive agility lets yo
 monk_stillness_of_mind,monk,7,,,,,Stillness of Mind,,"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.",
 monk_purity_of_body,monk,10,,,,,Purity of Body,,"At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.",
 monk_tongue_of_the_sun_and_moon,monk,13,,,,,Tongue of the Sun and Moon,,"Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.",
-monk_diamond_soul,monk,14,,,,,Diamond Soul,,"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.",
+monk_diamond_soul,monk,14,,,,grant_proficiency:saves,Diamond Soul,,"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.",
 monk_timeless_body,monk,15,,,,,Timeless Body,,"At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.",
 monk_empty_body,monk,18,,,,,Empty Body,,"Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.
 Additionally, you can spend 8 ki points to cast the
@@ -295,7 +295,7 @@ rogue_evasion,rogue,7,,,,,Evasion,,"Beginning at 7th level, you can nimbly dodge
 rogue_reliable_talent,rogue,11,,,,,Reliable Talent,,"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.",
 rogue_blindsense,rogue,14,,,,,Blindsense,,"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10
 feet of you.",
-rogue_slippery_mind,rogue,15,,,,,Slippery Mind,,"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.",
+rogue_slippery_mind,rogue,15,,,,grant_proficiency:save.wis,Slippery Mind,,"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.",
 rogue_elusive,rogue,18,,,,,Elusive,,"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.",
 rogue_stroke_of_luck,rogue,20,,,,,Stroke of Luck,,"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.
 Once you use this feature, you can't use it again until you finish a short or long rest.",
@@ -421,7 +421,7 @@ if it's immune to being charmed.",
 collegeoflore_additional_magical_secrets,bard,6,,collegeoflore,,,Additional Magical Secrets,,"At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know.",
 collegeoflore_peerless_skill,bard,14,,collegeoflore,,,Peerless Skill,,"Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail.",
 lifedomain_life_domain_spells,cleric,1,,lifedomain,,,Life Domain Spells,,"<table><tr class=heading><th ><b>Cleric Level </b></th><th ><b>Spells </b></th></tr><tr><td >1st </td><td ><em>bless, cure wounds </em></td></tr><tr><td >3rd </td><td ><em>lesser restoration, spiritual weapon </em></td></tr><tr><td >5th </td><td ><em>beacon of hope, revivify </em></td></tr><tr><td >7th </td><td ><em>death ward, guardian of faith </em></td></tr><tr><td >9th </td><td ><em>mass cure wounds, raise dead </em></td></tr></table>",
-lifedomain_bonus_proficiency,cleric,1,,lifedomain,,,Bonus Proficiency,,"When you choose this domain at 1st level, you gain proficiency with heavy armor.",
+lifedomain_bonus_proficiency,cleric,1,,lifedomain,,grant_proficiency:armor.heavy,Bonus Proficiency,,"When you choose this domain at 1st level, you gain proficiency with heavy armor.",
 lifedomain_disciple_of_life,cleric,1,,lifedomain,,,Disciple of Life,,"Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.",
 lifedomain_channel_divinity_preserve_life,cleric,2,,lifedomain,,,Channel Divinity: Preserve Life,,"Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.
 As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.",

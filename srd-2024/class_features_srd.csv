@@ -1,4 +1,4 @@
-#content-hash: xxh64:6cf696257998333d
+#content-hash: xxh64:158d35618a1532b5
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -433,7 +433,7 @@ monk_heightened_focus,monk,10,,,,,Heightened Focus,,"Your Flurry of Blows, Patie
 monk_self_restoration,monk,10,,,,,Self-Restoration,,"Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, or Poisoned.
 In addition, forgoing food and drink doesn't give you levels of Exhaustion.",
 monk_deflect_energy,monk,13,,,,,Deflect Energy,,"You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.",
-monk_disciplined_survivor,monk,14,,,,,Disciplined Survivor,,"Your physical and mental discipline grant you proficiency in all saving throws.
+monk_disciplined_survivor,monk,14,,,,grant_proficiency:saves,Disciplined Survivor,,"Your physical and mental discipline grant you proficiency in all saving throws.
 Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.",
 monk_perfect_focus,monk,15,,,,regain_on_initiative:focus:4,Perfect Focus,,"When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.",
 monk_superior_defense,monk,18,,,,,Superior Defense,,"At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.",
@@ -596,7 +596,7 @@ rogue_devious_strikes,rogue,14,,,,,Devious Strikes,,"You've practiced new ways t
 _Daze (Cost: 2d6)._ The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.
 _Knock Out (Cost: 6d6)._ The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.
 _Obscure (Cost: 3d6)._ The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.",
-rogue_slippery_mind,rogue,15,,,,,Slippery Mind,,Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.,
+rogue_slippery_mind,rogue,15,,,,grant_proficiency:save.wis;grant_proficiency:save.cha,Slippery Mind,,Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.,
 rogue_elusive,rogue,18,,,,,Elusive,,You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.,
 rogue_epic_boon,rogue,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended.",
 rogue_stroke_of_luck,rogue,20,,,,,Stroke of Luck,,"You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.
