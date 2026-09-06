@@ -1,4 +1,4 @@
-#content-hash: xxh64:158d35618a1532b5
+#content-hash: xxh64:56bfccecb21f35fa
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -69,7 +69,7 @@ _Spellcasting Ability._ Charisma is your spellcasting ability for your Bard spel
 _Spellcasting Focus._ You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.",
 bard_expertise,bard,2,,,"2:2,9:2",,Expertise,,"You gain Expertise (see ""Rules Glossary"") in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them.
 At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.",
-bard_jack_of_all_trades,bard,2,,,,,Jack of All Trades,,"You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.
+bard_jack_of_all_trades,bard,2,,,,grant_proficiency:half:skills,Jack of All Trades,,"You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.
 For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check.",
 bard_bard_subclass,bard,3,,,,,Bard Subclass,,"You gain a Bard subclass of your choice. The College of Lore subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower.",
 bard_ability_score_improvement,bard,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16.",

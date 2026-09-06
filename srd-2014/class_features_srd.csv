@@ -1,4 +1,4 @@
-#content-hash: xxh64:813b26118152b58e
+#content-hash: xxh64:2baafdf87aba79a7
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -51,7 +51,7 @@ it rolls the d20 before deciding to use the Bardic Inspiration die, but must dec
 You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
 Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a
 d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.",
-bard_jack_of_all_trades,bard,2,,,,,Jack of All Trades,,"Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.",
+bard_jack_of_all_trades,bard,2,,,,grant_proficiency:half:skills,Jack of All Trades,,"Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.",
 bard_song_of_rest,bard,2,,,,,Song of Rest,,"Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more
 Hit Dice, each of those creatures regains an extra 1d6 hit points.
 The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.",
