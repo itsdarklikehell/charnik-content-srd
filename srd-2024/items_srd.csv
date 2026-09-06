@@ -1,4 +1,4 @@
-#content-hash: xxh64:6e67eca9a99add9d
+#content-hash: xxh64:27f24e9c95c805df
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -1319,7 +1319,7 @@ While gently swinging this censer, you can take a Magic action to summon an Air 
 chime_of_opening,wondrous,,,,,rare,,,Chime of Opening,,"_Wondrous Item, Rare_
 This hollow metal tube measures about 1 foot long and weighs 1 pound. As a Magic action, you can strike the chime to cast _Knock_. The spell's customary knocking sound is replaced by the clear, ringing tone of the chime, which is audible out to 300 feet.
 The chime can be used 10 times. After the tenth time, it cracks and becomes useless.",
-circlet_of_blasting,wondrous,,,,,uncommon,,,Circlet of Blasting,,"_Wondrous Item, Uncommon_
+circlet_of_blasting,wondrous,,,,"note:Casts Scorching Ray at +5 to hit, once per dawn",uncommon,,,Circlet of Blasting,,"_Wondrous Item, Uncommon_
 While wearing this circlet, you can cast _Scorching Ray_ with it (+5 to hit). The circlet can't cast this spell again until the next dawn.",
 cloak_of_arachnida,wondrous,attunement,,,"damage_sensitivity:resist:poison;note:Climb Speed equal to your Speed, cannot be caught in webs, and can cast Web once per day",very_rare,,,Cloak of Arachnida,,"_Wondrous Item, Very Rare (Requires Attunement)_
 This fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.
@@ -1331,7 +1331,7 @@ cloak_of_displacement,wondrous,attunement,,,"note:Attack rolls against you have 
 While you wear this cloak, it magically projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have Disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while your Speed is 0.",
 cloak_of_elvenkind,wondrous,attunement,,,advantage:skill.stealth;note:Wisdom (Perception) checks to perceive you have Disadvantage,uncommon,,,Cloak of Elvenkind,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.",
-cloak_of_invisibility,wondrous,attunement,,,,legendary,,,Cloak of Invisibility,,"_Wondrous Item, Legendary (Requires Attunement)_
+cloak_of_invisibility,wondrous,attunement,,,grant_resource:cloak_of_invisibility:3:dawn(1d3),legendary,,,Cloak of Invisibility,,"_Wondrous Item, Legendary (Requires Attunement)_
 This cloak has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the cloak, you can take a Magic action to pull its hood over your
 head and expend 1 charge to give yourself the Invisible condition for 1 hour. The effect ends early if you pull the hood down (no action required) or cease wearing the cloak.",
 cloak_of_protection,wondrous,attunement,,,flat_bonus:ac+1;flat_bonus:saves+1,uncommon,,,Cloak of Protection,,"_Wondrous Item, Uncommon (Requires Attunement)_
@@ -1349,7 +1349,7 @@ crystal_ball_of_telepathy,wondrous,attunement,,,,legendary,,,Crystal Ball of Tel
 While touching this crystal orb, you can cast _Scrying_ (save DC 17) with it. In addition, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also cast _Suggestion_ (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this _Suggestion_ to maintain it during its duration, but it ends if _Scrying_ ends. You can't cast _Suggestion_ in this way again until the next dawn.",
 crystal_ball_of_true_seeing,wondrous,attunement,,,,legendary,,,Crystal Ball of True Seeing,,"_Wondrous Item, Legendary (Requires Attunement)_
 While touching this crystal orb, you can cast _Scrying_ (save DC 17) with it. In addition, you have Truesight with a range of 120 feet centered on the spell's sensor.",
-cube_of_force,wondrous,attunement,,,,rare,,,Cube of Force,,"_Wondrous Item, Rare (Requires Attunement)_
+cube_of_force,wondrous,attunement,,,grant_resource:cube_of_force:10:dawn(1d6),rare,,,Cube of Force,,"_Wondrous Item, Rare (Requires Attunement)_
 This cube is about an inch across. Each face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it, and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.
 The cube starts with 10 charges, and it regains 1d6 expended charges daily at dawn.
 **Cube of Force Faces**
@@ -1387,7 +1387,7 @@ The cube starts with 10 charges, and it regains 1d6 expended charges daily at da
 </tr>
 </tbody>
 </table>",
-cubic_gate,wondrous,,,,,legendary,,,Cubic Gate,,"_Wondrous Item, Legendary_
+cubic_gate,wondrous,,,,grant_resource:cubic_gate:3:dawn(1d3),legendary,,,Cubic Gate,,"_Wondrous Item, Legendary_
 This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the GM.
 The cube has 3 charges and regains 1d3 expended charges daily at dawn. As a Magic action, you can expend 1 of the cube's charges to cast one of the following spells using the cube.
 _Gate._ Pressing one side of the cube, you cast _Gate_, opening a portal to the plane of existence keyed to that side.
@@ -1562,7 +1562,7 @@ _Curse._ Once you don this cursed armor, you can't doff it unless you are target
 dimensional_shackles,wondrous,,,,,rare,,,Dimensional Shackles,,"_Wondrous Item, Rare_
 You can take a Utilize action to place these shackles on a creature that has the Incapacitated condition. The shackles adjust to fit a creature of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing through an interdimensional portal.
 You and any creature you designate when you use the shackles can take a Utilize action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength (Athletics) check. On a successful check, the creature breaks free and destroys the shackles.",
-dragon_orb,wondrous,attunement,,,,artifact,,,Dragon Orb,,"_Wondrous Item, Artifact (Requires Attunement)_
+dragon_orb,wondrous,attunement,,,grant_resource:dragon_orb:7:dawn(1d4+3),artifact,,,Dragon Orb,,"_Wondrous Item, Artifact (Requires Attunement)_
 An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.
 While attuned to an orb, you can take a Magic action to peer into the orb's depths. You must then make a DC 15 Charisma saving throw. On a successful save, you control the orb for as long as you remain attuned to it. On a failed save, the orb imposes the Charmed condition on you for as long as you remain attuned to it.
 While you are Charmed by the orb, you can't voluntarily end your Attunement to it, and the orb casts _Suggestion_ on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular society or organization, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.
@@ -1812,7 +1812,7 @@ In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and 
 When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can't be used again for 1 hour.",
 gauntlets_of_ogre_power,wondrous,attunement,,,set_override:str:19:floor,uncommon,,,Gauntlets of Ogre Power,,"_Wondrous Item, Uncommon (Requires Attunement)_
 Your Strength is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.",
-gem_of_brightness,wondrous,,,,,uncommon,,,Gem of Brightness,,"_Wondrous Item, Uncommon_
+gem_of_brightness,wondrous,,,,grant_resource:gem_of_brightness:50:consumable;note:One command word sheds bright light for free. The others spend a charge to blind a creature on a failed save,uncommon,,,Gem of Brightness,,"_Wondrous Item, Uncommon_
 This prism has 50 charges. While you are holding it, you can take a Magic action and use one of three command words to cause one of the following effects:
 **First Command Word.** The gem sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you take a Bonus Action to repeat the command word or until you use another function of the gem.
 **Second Command Word.** You expend 1 charge and cause the gem to fire a brilliant beam of light at one creature you can see within 60 feet of yourself. The creature must succeed on a DC 15 Constitution saving throw or have the Blinded condition for 1 minute. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.
@@ -1923,7 +1923,7 @@ helm_of_comprehending_languages,wondrous,,,,,uncommon,,,Helm of Comprehending La
 While wearing this helm, you can cast _Comprehend Languages_ from it.",
 helm_of_telepathy,wondrous,attunement,,,,uncommon,,,Helm of Telepathy,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this helm, you have telepathy with a range of 30 feet, and you can cast _Detect Thoughts_ or _Suggestion_ (save DC 13) from the helm. Once either spell is cast from the helm, that spell can't be cast from it again until the next dawn.",
-helm_of_teleportation,wondrous,attunement,,,,rare,,,Helm of Teleportation,,"_Wondrous Item, Rare (Requires Attunement)_
+helm_of_teleportation,wondrous,attunement,,,grant_resource:helm_of_teleportation:3:dawn(1d3),rare,,,Helm of Teleportation,,"_Wondrous Item, Rare (Requires Attunement)_
 This helm has 3 charges. While wearing it, you can expend 1 charge to cast _Teleport_ from it. The helm regains 1d3 expended charges daily at dawn.",
 holy_avenger,weapon,attunement,,,"flat_bonus:attack+3;flat_bonus:damage+3;note:An extra 2d10 radiant damage against a Fiend or an Undead, and a 10-foot aura giving you and friendly creatures advantage on saves against spells",legendary,,,Holy Avenger,,"_Weapon (Any Simple or Martial), Legendary (Requires Attunement by a Paladin)_
 You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a Fiend or an Undead with it, that creature takes an extra 2d10 Radiant damage.
@@ -2088,7 +2088,7 @@ Using the brush and expending 1 pot of pigment, you can paint any number of thre
 When the work is done, all the painted objects and terrain features become real. Thus, painting a door on a wall creates an actual door, which can be opened to whatever is beyond. Painting a pit creates a real pit, the entire depth of which must lie within the 20-foot Cube.
 No object created by a pot of pigment can have a value greater than 25 GP, and the total value of all objects created by a pot of pigment can't exceed 500 GP. If you paint objects of greater value (such as a large pile of gold), they look authentic, but close inspection reveals they're made from paste, cookies, or some other worthless material.
 If you paint a form of energy such as fire or lightning, the energy dissipates as soon as you complete the painting, doing no harm.",
-medallion_of_thoughts,wondrous,attunement,,,,uncommon,,,Medallion of Thoughts,,"_Wondrous Item, Uncommon (Requires Attunement)_
+medallion_of_thoughts,wondrous,attunement,,,grant_resource:medallion_of_thoughts:5:dawn(1d4),uncommon,,,Medallion of Thoughts,,"_Wondrous Item, Uncommon (Requires Attunement)_
 The medallion has 5 charges. While wearing it, you can expend 1 charge to cast _Detect Thoughts_ (save DC 13) from it. The medallion regains 1d4 expended charges daily at dawn.",
 mirror_of_life_trapping,wondrous,,,,,very_rare,,,Mirror of Life Trapping,,"_Wondrous Item, Very Rare_
 When this 4-foot-tall, 2-foot-wide mirror is viewed indirectly, its surface shows faint images of creatures. The mirror weighs 50 pounds, and it has AC 11, HP 10, Immunity to Poison and Psychic damage, and Vulnerability to Bludgeoning damage. It shatters and is destroyed when reduced to 0 Hit Points.
@@ -2343,7 +2343,7 @@ The next time you see a creature within 10 minutes after drinking this philter, 
 This rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.",
 pipes_of_haunting,wondrous,,,,grant_resource:pipes_of_haunting:3:dawn(1d3),uncommon,,,Pipes of Haunting,,"_Wondrous Item, Uncommon_
 These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.",
-pipes_of_the_sewers,wondrous,attunement,,,,uncommon,,,Pipes of the Sewers,,"_Wondrous Item, Uncommon (Requires Attunement)_
+pipes_of_the_sewers,wondrous,attunement,,,grant_resource:pipes_of_the_sewers:3:dawn(1d3),uncommon,,,Pipes of the Sewers,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While these pipes are on your person, ordinary rats and giant rats are Indifferent toward you and won't attack you unless you threaten or harm them.
 The pipes have 3 charges and regain 1d3 expended charges daily at dawn. If you play the pipes as a Magic action, you can take a Bonus Action to expend 1 to 3 charges, calling forth one Swarm of Rats with each expended charge if enough rats are within half a mile of you to be called in this fashion (as determined by the GM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise.
 Whenever a Swarm of Rats that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, the swarm makes a DC 15 Wisdom saving throw. On a successful save, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. On a failed save, the swarm is swayed by the pipes' music and becomes Friendly to you and your allies for as long as you continue to play the pipes each round as a Magic action. A Friendly swarm obeys your commands. If you issue no commands to a Friendly swarm, it defends itself but otherwise takes no actions. If a Friendly swarm starts its turn more than 30 feet away from you, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours.",
@@ -2528,7 +2528,7 @@ In certain forms, the weapon has the following additional properties.
 _Acrobatic Assist (Quarterstaff and 10-Foot Pole Forms Only)._ While holding this weapon, you have Advantage on Dexterity (Acrobatics) checks.
 _Attack Deflection (Quarterstaff Form Only)._ When you are hit by an attack while holding the weapon, you can take a Reaction to twirl the weapon around you, gaining a +5 bonus to your Armor Class against the triggering attack, potentially causing the attack to miss you. You can't use this property again until you finish a Short or Long Rest.
 _Ranged Weapon (Quarterstaff Form Only)._ This weapon has the Thrown property with a normal range of 30 feet and a long range of 120 feet. Immediately after you make a ranged attack with the weapon, it flies back to your hand.",
-ring_of_animal_influence,ring,,,,,rare,,,Ring of Animal Influence,,"_Ring, Rare_
+ring_of_animal_influence,ring,,,,grant_resource:ring_of_animal_influence:3:dawn(1d3),rare,,,Ring of Animal Influence,,"_Ring, Rare_
 This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:
 - _Animal Friendship_
 - _Fear_ (affects Beasts only)
@@ -2575,7 +2575,7 @@ _Spellcasting._ The ring has 5 charges and regains 1d4 + 1 expended charges dail
 </tr>
 </tbody>
 </table>",
-ring_of_evasion,ring,attunement,,,,rare,,,Ring of Evasion,,"_Ring, Rare (Requires Attunement)_
+ring_of_evasion,ring,attunement,,,grant_resource:ring_of_evasion:3:dawn(1d3),rare,,,Ring of Evasion,,"_Ring, Rare (Requires Attunement)_
 This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a Reaction to expend 1 charge to succeed on that save instead.",
 ring_of_feather_falling,ring,attunement,,,,rare,,,Ring of Feather Falling,,"_Ring, Rare (Requires Attunement)_
 When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.",
@@ -2656,7 +2656,7 @@ You have Resistance to one damage type while wearing this ring. The gemstone in 
 </tr>
 </tbody>
 </table>",
-ring_of_shooting_stars,ring,attunement,,,,very_rare,,,Ring of Shooting Stars,,"_Ring, Very Rare (Requires Attunement)_
+ring_of_shooting_stars,ring,attunement,,,grant_resource:ring_of_shooting_stars:6:dawn(1d6),very_rare,,,Ring of Shooting Stars,,"_Ring, Very Rare (Requires Attunement)_
 You can cast _Dancing Lights_ or _Light_ from the ring.
 The ring has 6 charges and regains 1d6 expended charges daily at dawn. You can expend its charges to use the properties below.
 **_Faerie Fire._** You can expend 1 charge to cast _Faerie Fire_ from the ring.
@@ -2700,7 +2700,7 @@ While wearing this ring, you can cast _Telekinesis_ from it.",
 ring_of_the_ram,ring,attunement,,,grant_resource:ring_of_the_ram:3:dawn(1d3);note:Spend 1 to 3 charges on a ranged spell attack (+7) that deals 2d10 Force damage per charge and can push the target 5 feet per charge,rare,,,Ring of the Ram,,"_Ring, Rare (Requires Attunement)_
 This ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the ring, you can take a Magic action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 Force damage and is pushed 5 feet away from you.
 Alternatively, you can expend 1 to 3 of the ring's charges as a Magic action to try to break a nonmagical object you can see within 60 feet of yourself that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.",
-ring_of_three_wishes,ring,,,,,legendary,,,Ring of Three Wishes,,"_Ring, Legendary_
+ring_of_three_wishes,ring,,,,grant_resource:ring_of_three_wishes:3:consumable;note:Each charge casts Wish. The ring becomes nonmagical when the last one is used,legendary,,,Ring of Three Wishes,,"_Ring, Legendary_
 While wearing this ring, you can expend 1 of its 3 charges to cast _Wish_ from it. The ring becomes nonmagical when you use the last charge.",
 ring_of_warmth,ring,attunement,,,,uncommon,,,Ring of Warmth,,"_Ring, Uncommon (Requires Attunement)_
 If you take Cold damage while wearing this ring, the ring reduces the damage you take by 2d8.
@@ -2826,7 +2826,7 @@ _Buttons._ You can press one of the following buttons as a Bonus Action; a butto
 _Drain Life._ When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target takes an extra 4d6 Necrotic damage, and you regain a number of Hit Points equal to half that Necrotic damage. Once used, this property can't be used again until the next dawn.
 _Paralyze._ When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target has the Paralyzed condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success. Once used, this property can't be used again until the next dawn.
 _Terrify._ While holding the rod, you can take a Magic action to force each creature you can see within 30 feet of yourself to make a DC 17 Wisdom saving throw. On a failed save, a target has the Frightened condition for 1 minute. A Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn.",
-rod_of_resurrection,rod,attunement,,,,legendary,,,Rod of Resurrection,,"_Rod, Legendary (Requires Attunement)_
+rod_of_resurrection,rod,attunement,,,grant_resource:rod_of_resurrection:5:dawn(1);note:Casts Heal for 1 charge or Resurrection for 5,legendary,,,Rod of Resurrection,,"_Rod, Legendary (Requires Attunement)_
 The rod has 5 charges. While you hold it, you can cast one of the following spells from it: _Heal_ (expends 1 charge) or _Resurrection_ (expends 5 charges).
 The rod regains 1 expended charge daily at dawn. If you expend the last charge, roll 1d20. On a 1, the rod disappears in a harmless burst of radiance.",
 rod_of_rulership,rod,attunement,,,,rare,,,Rod of Rulership,,"_Rod, Rare (Requires Attunement)_
@@ -2977,7 +2977,7 @@ _Sphere Interactions._ If the sphere comes into contact with a planar portal (su
 </tr>
 </tbody>
 </table>",
-staff_of_charming,staff,attunement,,,,rare,,,Staff of Charming,,"_Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)_
+staff_of_charming,staff,attunement,,,grant_resource:staff_of_charming:10:dawn(1d8+2),rare,,,Staff of Charming,,"_Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)_
 This staff has 10 charges. While holding the staff, you can use any of its properties:
 **Cast Spell.** You can expend 1 of the staff's charges to cast _Charm Person_, _Command_, or _Comprehend Languages_ from it using your spell save DC.
 **Reflect Enchantment.** If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a Reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
@@ -3039,7 +3039,7 @@ _Spells._ The staff has 10 charges. While holding the staff, you can cast one of
 </tbody>
 </table>
 _Regaining Charges._ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.",
-staff_of_healing,staff,attunement,,,,rare,,,Staff of Healing,,"_Staff, Rare (Requires Attunement by a Bard, Cleric, or Druid)_
+staff_of_healing,staff,attunement,,,grant_resource:staff_of_healing:10:dawn(1d6+4),rare,,,Staff of Healing,,"_Staff, Rare (Requires Attunement by a Bard, Cleric, or Druid)_
 This staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spellcasting ability modifier. The table indicates how many charges you must expend to cast the spell.
 <table>
 <thead>
@@ -3119,7 +3119,7 @@ staff_of_striking,staff,attunement,,,flat_bonus:attack+3;flat_bonus:damage+3;not
 This staff can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it.
 The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 charges. For each charge you expend, the target takes an extra 1d6 Force damage.
 _Regaining Charges._ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff becomes a nonmagical Quarterstaff.",
-staff_of_swarming_insects,staff,attunement,,,,rare,,,Staff of Swarming Insects,,"_Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)_
+staff_of_swarming_insects,staff,attunement,,,grant_resource:staff_of_swarming_insects:10:dawn(1d6+4),rare,,,Staff of Swarming Insects,,"_Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)_
 This staff has 10 charges.
 _Insect Cloud._ While holding the staff, you can take a Magic action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot Emanation originating from you. The insects remain for 10 minutes, making the area Heavily Obscured for creatures other than you. A strong wind (like that created by _Gust of Wind_) disperses the swarm and ends the effect.
 _Spells._ While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.
@@ -3328,7 +3328,7 @@ tome_of_leadership_and_influence,wondrous,,,,,very_rare,,,Tome of Leadership and
 This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.",
 tome_of_understanding,wondrous,,,,,very_rare,,,Tome of Understanding,,"_Wondrous Item, Very Rare_
 This book contains intuition and insight exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Wisdom increases by 2, to a maximum of 30. The manual then loses its magic, but regains it in a century.",
-trident_of_fish_command,weapon,attunement,,trident,,uncommon,,,Trident of Fish Command,,"_Weapon (Trident), Uncommon (Requires Attunement)_
+trident_of_fish_command,weapon,attunement,,trident,grant_resource:trident_of_fish_command:3:dawn(1d3),uncommon,,,Trident of Fish Command,,"_Weapon (Trident), Uncommon (Requires Attunement)_
 This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast _Dominate Beast_ (save DC 15) from it on a Beast that has a Swim Speed.",
 universal_solvent,wondrous,,,,,legendary,,,Universal Solvent,,"_Wondrous Item, Legendary_
 This tube holds milky liquid with a strong alcohol smell. When found, a tube contains 1d6 + 1 ounces.
@@ -3338,7 +3338,7 @@ This magic weapon deals an extra 2d6 damage to any creature it hits. This extra 
 vorpal_sword,weapon,attunement,,,"flat_bonus:attack+3;flat_bonus:damage+3;note:Ignores Resistance to slashing damage, and a natural 20 severs a head (or deals an extra 30 slashing damage)",legendary,,,Vorpal Sword,,"_Weapon (Glaive, Greatsword, Longsword, or Scimitar), Legendary (Requires Attunement)_
 You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. In addition, the weapon ignores Resistance to Slashing damage.
 When you use this weapon to attack a creature that has at least one head and roll a 20 on the d20 for the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it has Immunity to Slashing damage, if it doesn't have or need a head, or if the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 30 Slashing damage from the hit. If the creature has Legendary Resistance, it can expend one daily use of that trait to avoid losing its head, taking the extra damage instead.",
-wand_of_binding,wand,attunement,,,,rare,,,Wand of Binding,,"_Wand, Rare (Requires Attunement)_
+wand_of_binding,wand,attunement,,,grant_resource:wand_of_binding:7:dawn(1d6+1),rare,,,Wand of Binding,,"_Wand, Rare (Requires Attunement)_
 This wand has 7 charges.
 _Spells._ While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.
 <table>
@@ -3360,10 +3360,10 @@ _Spells._ While holding the wand, you can cast one of the spells (save DC 17) on
 </tbody>
 </table>
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_enemy_detection,wand,attunement,,,,rare,,,Wand of Enemy Detection,,"_Wand, Rare (Requires Attunement)_
+wand_of_enemy_detection,wand,attunement,,,grant_resource:wand_of_enemy_detection:7:dawn(1d6+1),rare,,,Wand of Enemy Detection,,"_Wand, Rare (Requires Attunement)_
 This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge. For 1 minute, you know the direction of the nearest creature Hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of Hostile creatures that are Invisible, ethereal, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_fear,wand,attunement,,,,rare,,,Wand of Fear,,"_Wand, Rare (Requires Attunement)_
+wand_of_fear,wand,attunement,,,grant_resource:wand_of_fear:7:dawn(1d6+1),rare,,,Wand of Fear,,"_Wand, Rare (Requires Attunement)_
 This wand has 7 charges.
 _Spells._ While holding the wand, you can cast one of the spells (save DC 15) on the following table from it. The table indicates how many charges you must expend to cast the spell.
 <table>
@@ -3385,31 +3385,31 @@ _Spells._ While holding the wand, you can cast one of the spells (save DC 15) on
 </tbody>
 </table>
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_fireballs,wand,attunement,,,,rare,,,Wand of Fireballs,,"_Wand, Rare (Requires Attunement by a Spellcaster)_
+wand_of_fireballs,wand,attunement,,,grant_resource:wand_of_fireballs:7:dawn(1d6+1),rare,,,Wand of Fireballs,,"_Wand, Rare (Requires Attunement by a Spellcaster)_
 This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast _Fireball_ (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_lightning_bolts,wand,attunement,,,,rare,,,Wand of Lightning Bolts,,"_Wand, Rare (Requires Attunement by a Spellcaster)_
+wand_of_lightning_bolts,wand,attunement,,,grant_resource:wand_of_lightning_bolts:7:dawn(1d6+1),rare,,,Wand of Lightning Bolts,,"_Wand, Rare (Requires Attunement by a Spellcaster)_
 This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast _Lightning Bolt_ (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_magic_detection,wand,,,,,uncommon,,,Wand of Magic Detection,,"_Wand, Uncommon_
+wand_of_magic_detection,wand,,,,grant_resource:wand_of_magic_detection:3:dawn(1d3),uncommon,,,Wand of Magic Detection,,"_Wand, Uncommon_
 This wand has 3 charges. While holding it, you can expend 1 charge to cast _Detect Magic_ from it. The wand regains 1d3 expended charges daily at dawn.",
-wand_of_magic_missiles,wand,,,,,uncommon,,,Wand of Magic Missiles,,"_Wand, Uncommon_
+wand_of_magic_missiles,wand,,,,grant_resource:wand_of_magic_missiles:7:dawn(1d6+1),uncommon,,,Wand of Magic Missiles,,"_Wand, Uncommon_
 This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast _Magic Missile_ from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_paralysis,wand,attunement,,,,rare,,,Wand of Paralysis,,"_Wand, Rare (Requires Attunement by a Spellcaster)_
+wand_of_paralysis,wand,attunement,,,grant_resource:wand_of_paralysis:7:dawn(1d6+1),rare,,,Wand of Paralysis,,"_Wand, Rare (Requires Attunement by a Spellcaster)_
 This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a DC 15 Constitution saving throw or have the Paralyzed condition for 1 minute. At the end of each of the target's turns, it repeats the save, ending the effect on itself on a success.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_polymorph,wand,attunement,,,,very_rare,,,Wand of Polymorph,,"_Wand, Very Rare (Requires Attunement by a Spellcaster)_
+wand_of_polymorph,wand,attunement,,,grant_resource:wand_of_polymorph:7:dawn(1d6+1),very_rare,,,Wand of Polymorph,,"_Wand, Very Rare (Requires Attunement by a Spellcaster)_
 This wand has 7 charges. While holding it, you can expend 1 charge to cast _Polymorph_ (save DC 15) from it.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_secrets,wand,,,,,uncommon,,,Wand of Secrets,,"_Wand, Uncommon_
+wand_of_secrets,wand,,,,grant_resource:wand_of_secrets:3:dawn(1d3),uncommon,,,Wand of Secrets,,"_Wand, Uncommon_
 This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you.",
 wand_of_the_war_mage_1_2_or_3,wand,attunement,,,"note:A bonus to spell attack rolls set by rarity — +1 uncommon, +2 rare, +3 very rare — and you ignore Half Cover when making a spell attack",very_rare,,,"Wand of the War Mage, +1, +2, or +3",,"_Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)_
 While holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore Half Cover when making a spell attack roll.",
-wand_of_web,wand,attunement,,,,uncommon,,,Wand of Web,,"_Wand, Uncommon (Requires Attunement by a Spellcaster)_
+wand_of_web,wand,attunement,,,grant_resource:wand_of_web:7:dawn(1d6+1),uncommon,,,Wand of Web,,"_Wand, Uncommon (Requires Attunement by a Spellcaster)_
 This wand has 7 charges. While holding it, you can expend 1 charge to cast _Web_ (save DC 13) from it.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
-wand_of_wonder,wand,attunement,,,,rare,,,Wand of Wonder,,"_Wand, Rare (Requires Attunement)_
+wand_of_wonder,wand,attunement,,,grant_resource:wand_of_wonder:7:dawn(1d6+1),rare,,,Wand of Wonder,,"_Wand, Rare (Requires Attunement)_
 This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge while choosing a point within 120 feet of yourself. That location becomes the point of origin of a spell or other magical effect determined by rolling on the Wand of Wonder Effects table. Spells cast from the wand have a save DC of 15. If a spell's maximum range is normally less than 120 feet, it becomes 120 feet when cast from the wand. If an effect has multiple possible subjects, the GM determines randomly which among them are affected.
 _Regaining Charges._ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into dust and is destroyed.
 **Wand of Wonder Effects**
