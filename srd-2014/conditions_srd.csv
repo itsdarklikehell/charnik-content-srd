@@ -1,4 +1,4 @@
-#content-hash: xxh64:9094f5944240662a
+#content-hash: xxh64:8421883cad200122
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -54,4 +54,4 @@ unconscious,true,1,apply_condition:incapacitated;apply_condition:prone;set_overr
 •Attack rolls against the creature have advantage.
 •Any attack that hits the creature is a critical hit ifthe attacker is within 5 feet of the creature.
 The Celtic, Egyptian, Greek, and Norse pantheons are fantasy interpretations of historical religions from our world's ancient times. They include deities that are most appropriate for use in a game, divorced from their historical context in the real world and united into pantheons that serve the needs of the game.",
-rage,false,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration;note:Rage damage applies to Strength melee attacks",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",
+rage,false,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage.melee,str+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",
