@@ -1,10 +1,10 @@
-#content-hash: xxh64:b22d81f65c403240
+#content-hash: xxh64:b70ea2fb4367da2e
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fbb2-7d4d-9418-1b10835deafa
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-12
 #content-schema: 1
 id,kind,level,slot_1,slot_2,slot_3,slot_4,slot_5,slot_6,slot_7,slot_8,slot_9
 full_1,full,1,2,0,0,0,0,0,0,0,0
@@ -27,7 +27,7 @@ full_17,full,17,4,3,3,3,2,1,1,1,1
 full_18,full,18,4,3,3,3,3,1,1,1,1
 full_19,full,19,4,3,3,3,3,2,1,1,1
 full_20,full,20,4,3,3,3,3,2,2,1,1
-half_1,half,1,2,0,0,0,0,0,0,0,0
+half_1,half,1,0,0,0,0,0,0,0,0,0
 half_2,half,2,2,0,0,0,0,0,0,0,0
 half_3,half,3,3,0,0,0,0,0,0,0,0
 half_4,half,4,3,0,0,0,0,0,0,0,0
