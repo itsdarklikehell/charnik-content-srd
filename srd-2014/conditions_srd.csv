@@ -1,10 +1,10 @@
-#content-hash: xxh64:8421883cad200122
+#content-hash: xxh64:fd35647cae48e9b5
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fce9-7a08-a279-ae8d4b1fe0b9
-#content-updated_at: 2026-09-06
+#content-updated_at: 2026-09-13
 #content-schema: 1
 id,negative,max_level,effects,name_en,name_uk,text_en,text_uk
 blinded,true,1,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,Blinded,,"•A blinded creature can't see and automatically fails any ability check that requires sight.
@@ -48,7 +48,7 @@ restrained,true,1,set_override:speed:0;block_bonus:speed;disadvantage:save.dex;d
 stunned,true,1,apply_condition:incapacitated;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage,Stunned,,"•A stunned creature is incapacitated (see the condition), can't move, and can speak onlyfalteringly.
 •The creature automatically fails Strength andDexterity saving throws.
 •Attack rolls against the creature have advantage.",
-unconscious,true,1,apply_condition:incapacitated;apply_condition:prone;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage;note:Any hit from within 5 ft is a critical hit;note:You drop what you're holding,Unconscious,,"•An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware ofits surroundings
+unconscious,true,1,apply_condition:incapacitated;apply_condition:prone;disadvantage:attack;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage;note:Any hit from within 5 ft is a critical hit;note:You drop what you're holding,Unconscious,,"•An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware ofits surroundings
 •The creature drops whatever it's holding and falls prone.
 •The creature automatically fails Strength andDexterity saving throws.
 •Attack rolls against the creature have advantage.
