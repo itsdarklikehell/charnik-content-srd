@@ -4,7 +4,7 @@
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e3-73e9-b5d8-eed9f6418232
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-16
 #content-schema: 1
 id,hit_die,primary_ability,saves,caster,spell_ability,skills_choose,skills_from,weapon_profs,armor_profs,subclass_level,asi_levels,effects,name_en,name_uk,text_en,text_uk
 barbarian,d12,str,"str,con",none,,2,"animal_handling,athletics,intimidation,nature,perception,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19",,Barbarian,,,

@@ -1,10 +1,10 @@
-#content-hash: xxh64:54efc46dd967fe44
+#content-hash: xxh64:523c5b58846be5a7
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-09-07
+#content-updated_at: 2026-09-16
 #content-schema: 1
 id,class_id,level,resource,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.

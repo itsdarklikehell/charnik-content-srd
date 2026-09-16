@@ -4,7 +4,7 @@
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f7172-ddd7-73d6-a565-f3f21a4cc776
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-16
 #content-schema: 1
 id,level,school,casting_time,range,components,material,duration,concentration,ritual,classes,resolution,save_ability,damage,higher_level,upcast,effects,name_en,name_uk,text_en,text_uk
 acid_splash,0,evocation,Action,60 feet,"V,S",,Instantaneous,false,false,"sorcerer,wizard",save,dex,1d6 acid,"The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).",,,Acid Splash,,"You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.",

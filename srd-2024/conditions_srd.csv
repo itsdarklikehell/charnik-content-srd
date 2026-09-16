@@ -4,7 +4,7 @@
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f972-79f0-8cbe-db82843f9ea2
-#content-updated_at: 2026-09-13
+#content-updated_at: 2026-09-16
 #content-schema: 1
 id,negative,max_level,effects,name_en,name_uk,text_en,text_uk
 blinded,true,1,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,Blinded,,"While you have the Blinded condition, you experience the following effects.

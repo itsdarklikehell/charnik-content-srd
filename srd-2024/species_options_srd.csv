@@ -5,7 +5,7 @@
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f976-7552-b17a-956ec8debbde
 #content-schema: 2
-#content-updated_at: 2026-09-06
+#content-updated_at: 2026-09-16
 id,species_id,kind,option_label,effects,name_en,name_uk,text_en,text_uk
 dragonborn_black,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:acid,Black,,Your Breath Weapon and Damage Resistance are Acid.,
 dragonborn_gold,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:fire,Gold,,Your Breath Weapon and Damage Resistance are Fire.,
