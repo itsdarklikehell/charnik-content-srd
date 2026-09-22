@@ -1,10 +1,10 @@
-#content-hash: xxh64:05ba796f71453255
+#content-hash: xxh64:c0a7dd139dcf5199
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fa92-7ecb-9807-4042842f8ba9
-#content-schema: 2
+#content-schema: 3
 #content-updated_at: 2026-09-22
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk
 club,weapon,"simple, melee, light, mastery:slow",1d4 bludgeoning,,,,1 SP,2,Club,,,
@@ -758,6 +758,11 @@ tinderbox,gear,,,,,,5 SP,1,Tinderbox,,"A Tinderbox is a small container holding 
 torch,gear,,,,,,1 CP,1,Torch,,"A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.",
 vial,gear,,,,,,1 GP,,Vial,,A Vial holds up to 4 ounces.,
 waterskin,gear,,,,,,2 SP,5,Waterskin,,"A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration (see ""Rules Glossary"").",
+arrows,ammunition,"ammo:arrow, quantity:20",,,,,1 GP,1,Arrows,,20 per purchase; stored in a Quiver.,
+bolts,ammunition,"ammo:bolt, quantity:20",,,,,1 GP,1,Bolts,,20 per purchase; stored in a Case.,
+bullets_firearm,ammunition,"ammo:bullet, quantity:10",,,,,3 GP,2,"Bullets, Firearm",,10 per purchase; stored in a Pouch.,
+bullets_sling,ammunition,"ammo:bullet, quantity:20",,,,,4 CP,1,"Bullets, Sling",,20 per purchase; stored in a Pouch.,
+needles,ammunition,"ammo:needle, quantity:50",,,,,1 GP,1,Needles,,50 per purchase; stored in a Pouch.,
 adamantine_armor,armor,,,,,uncommon,,,Adamantine Armor,,"_Armor (Any Medium or Heavy, Except Hide Armor), Uncommon_
 This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any Critical Hit against you becomes a normal hit.",
 ammunition_1_2_or_3,weapon,,,,"note:A bonus to attack and damage rolls set by rarity — +1 uncommon, +2 rare, +3 very rare",very_rare,,,"Ammunition, +1, +2, or +3",,"_Weapon (Any Ammunition), Uncommon (+1), Rare (+2), or Very Rare (+3)_

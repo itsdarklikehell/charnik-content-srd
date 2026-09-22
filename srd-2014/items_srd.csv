@@ -1,10 +1,10 @@
-#content-hash: xxh64:4679979b3aaa4dc1
+#content-hash: xxh64:d3a3de94e4255c5a
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd4e-7cbd-ab16-da8d50473527
-#content-schema: 2
+#content-schema: 3
 #content-updated_at: 2026-09-22
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk
 club,weapon,"simple, melee, light",1d4 bludgeoning,,,,1 sp,2,Club,,,
@@ -96,10 +96,10 @@ vehicles,tool,,,,,,,,Vehicles (land or water),,,
 abacus,gear,,,,,,2 gp,2,Abacus,,,
 acid,gear,,,,,,25 gp,1,Acid (vial),,,
 alchemists_fire,gear,,,,,,50 gp,1,Alchemist's fire (flask),,,
-arrows,gear,,,,,,1 gp,1,Arrows (20),,,
-blowgun_needles,gear,,,,,,1 gp,1,Blowgun needles (50),,,
-crossbow_bolts,gear,,,,,,1 gp,1,Crossbow bolts (20),,,
-sling_bullets,gear,,,,,,4 cp,1,Sling bullets (20),,,
+arrows,ammunition,quantity:20,,,,,1 gp,1,Arrows (20),,,
+blowgun_needles,ammunition,quantity:50,,,,,1 gp,1,Blowgun needles (50),,,
+crossbow_bolts,ammunition,quantity:20,,,,,1 gp,1,Crossbow bolts (20),,,
+sling_bullets,ammunition,quantity:20,,,,,4 cp,1,Sling bullets (20),,,
 antitoxin,gear,,,,,,50 gp,,Antitoxin (vial),,,
 crystal,gear,,,,,,10 gp,1,Crystal,,,
 orb,gear,,,,,,20 gp,3,Orb,,,
