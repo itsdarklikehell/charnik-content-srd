@@ -38,6 +38,11 @@ from the app repo, or the app's content-health panel flags it as drifted:
 pnpm restamp <path-to-file.csv>
 ```
 
+One column is not a plain fact: **`effects`**, which is what makes a number on the character sheet
+change by itself. [**Effects — the author's guide**](https://claude.ai/code/artifact/b908baa5-f4c7-46bf-bd51-f3b2bdd4ad9e)
+is the whole of it in plain language — every effect kind, everything one can point at, and the small
+formula language — for whoever is writing that column rather than changing the app.
+
 ## License
 
 The rules data is © Wizards of the Coast LLC, licensed under
