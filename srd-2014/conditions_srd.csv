@@ -1,57 +1,57 @@
-#content-hash: xxh64:fd35647cae48e9b5
+#content-hash: xxh64:ce24e3a7aaf52473
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fce9-7a08-a279-ae8d4b1fe0b9
-#content-updated_at: 2026-09-13
-#content-schema: 1
-id,negative,max_level,effects,name_en,name_uk,text_en,text_uk
-blinded,true,1,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,Blinded,,"•A blinded creature can't see and automatically fails any ability check that requires sight.
+#content-schema: 3
+#content-updated_at: 2026-09-22
+id,kind,valence,max_level,effects,name_en,name_uk,text_en,text_uk
+blinded,condition,harmful,1,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,Blinded,,"•A blinded creature can't see and automatically fails any ability check that requires sight.
 •Attack rolls against the creature have advantage,and the creature's attack rolls have disadvantage.",
-charmed,true,1,note:You can't attack or target the charmer with harmful effects;note:The charmer has Advantage on ability checks to interact with you socially,Charmed,,"•A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.
+charmed,condition,harmful,1,note:You can't attack or target the charmer with harmful effects;note:The charmer has Advantage on ability checks to interact with you socially,Charmed,,"•A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.
 •The charmer has advantage on any ability check to interact socially with the creature.",
-deafened,true,1,note:You automatically fail any check that requires hearing,Deafened,,•A deafened creature can't hear and automatically fails any ability check that requires hearing.,
-exhaustion,true,6,exhaustion>=1 ? disadvantage:ability_checks;exhaustion>=2 ? halve:speed;exhaustion>=3 ? disadvantage:attack;exhaustion>=3 ? disadvantage:saves;exhaustion>=4 ? halve:hp_max;exhaustion>=5 ? set_override:speed:0;exhaustion>=6 ? note:Level 6 exhaustion is death,Exhaustion,,"Some special abilities and environmental hazards, such as starvation and the long--term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.
+deafened,condition,harmful,1,note:You automatically fail any check that requires hearing,Deafened,,•A deafened creature can't hear and automatically fails any ability check that requires hearing.,
+exhaustion,condition,harmful,6,exhaustion>=1 ? disadvantage:ability_checks;exhaustion>=2 ? halve:speed;exhaustion>=3 ? disadvantage:attack;exhaustion>=3 ? disadvantage:saves;exhaustion>=4 ? halve:hp_max;exhaustion>=5 ? set_override:speed:0;exhaustion>=6 ? note:Level 6 exhaustion is death,Exhaustion,,"Some special abilities and environmental hazards, such as starvation and the long--term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.
 Level Effect
 1 Disadvantage on ability checks 2 Speed halved 3 Disadvantage on attack rolls and saving throws 4 Hit point maximum halved 5 Speed reduced to 0 6
 DeathIf an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.
 A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.
 An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.
 Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.",
-frightened,true,1,disadvantage:attack;disadvantage:skills;note:Applies while the source of fear is in line of sight;note:You can't willingly move closer to the source of fear,Frightened,,"•A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.
+frightened,condition,harmful,1,disadvantage:attack;disadvantage:skills;note:Applies while the source of fear is in line of sight;note:You can't willingly move closer to the source of fear,Frightened,,"•A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.
 •The creature can't willingly move closer to the source of its fear.",
-grappled,true,1,set_override:speed:0;block_bonus:speed;note:Ends if the grappler is Incapacitated or you're moved out of its reach,Grappled,,"•A grappled creature's speed becomes 0, and itcan't benefit from any bonus to its speed.
+grappled,condition,harmful,1,set_override:speed:0;block_bonus:speed;note:Ends if the grappler is Incapacitated or you're moved out of its reach,Grappled,,"•A grappled creature's speed becomes 0, and itcan't benefit from any bonus to its speed.
 •The condition ends if the grappler is incapacitated(see the condition).
 •The condition also ends if an effect removes the grappled creature from the reach of the grapple ror grappling effect, such as when a creature is hurled away by the
 thunder-wave spell.",
-incapacitated,true,1,note:You can't take actions or reactions,Incapacitated,,•An incapacitated creature can't take actions or reactions.,
-invisible,false,1,advantage:attack;note:Attacks against you have Disadvantage;note:Heavily Obscured — you can be detected by noise or tracks,Invisible,,"•Aninvisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.
+incapacitated,condition,harmful,1,note:You can't take actions or reactions,Incapacitated,,•An incapacitated creature can't take actions or reactions.,
+invisible,condition,helpful,1,advantage:attack;note:Attacks against you have Disadvantage;note:Heavily Obscured — you can be detected by noise or tracks,Invisible,,"•Aninvisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.
 •Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
-paralyzed,true,1,apply_condition:incapacitated;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage;note:Any hit from within 5 ft is a critical hit,Paralyzed,,"•A paralyzed creature is incapacitated (see the condition) and can't move or speak.
+paralyzed,condition,harmful,1,apply_condition:incapacitated;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage;note:Any hit from within 5 ft is a critical hit,Paralyzed,,"•A paralyzed creature is incapacitated (see the condition) and can't move or speak.
 •The creature automatically fails Strength andDexterity saving throws.
 •Attack rolls against the creature have advantage.
 •Any attack that hits the creature is a critical hit ifthe attacker is within 5 feet of the creature.",
-petrified,true,1,apply_condition:incapacitated;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;damage_sensitivity:resist:all;note:Attacks against you have Advantage;note:Immune to poison and to the Poisoned condition;note:Weight increases tenfold and you stop aging,Petrified,,"•A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Itsweight increases by a factor of ten, and it ceases aging.
+petrified,condition,harmful,1,apply_condition:incapacitated;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;damage_sensitivity:resist:all;note:Attacks against you have Advantage;note:Immune to poison and to the Poisoned condition;note:Weight increases tenfold and you stop aging,Petrified,,"•A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Itsweight increases by a factor of ten, and it ceases aging.
 •The creature is incapacitated (see the condition),can't move or speak, and is unaware of its surroundings.
 •Attack rolls against the creature have advantage.
 •The creature automatically fails Strength andDexterity saving throws.
 •The creature has resistance to all damage.
 •The creature is immune to poison and disease,although a poison or disease already in its system is suspended, not neutralized.",
-poisoned,true,1,disadvantage:attack;disadvantage:skills,Poisoned,,•A poisoned creature has disadvantage on attack rolls and ability checks.,
-prone,true,1,"disadvantage:attack;note:An attack against you has Advantage if the attacker is within 5 ft, otherwise Disadvantage",Prone,,"•A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.
+poisoned,condition,harmful,1,disadvantage:attack;disadvantage:skills,Poisoned,,•A poisoned creature has disadvantage on attack rolls and ability checks.,
+prone,condition,harmful,1,"disadvantage:attack;note:An attack against you has Advantage if the attacker is within 5 ft, otherwise Disadvantage",Prone,,"•A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.
 •The creature has disadvantage on attack rolls.
 •An attack roll against the creature has advantage ifthe attacker is within 5 feet of the creature.Otherwise, the attack roll has disadvantage.",
-restrained,true,1,set_override:speed:0;block_bonus:speed;disadvantage:save.dex;disadvantage:attack;note:Attacks against you have Advantage,Restrained,,"•A restrained creature's speed becomes 0, and itcan't benefit from any bonus to its speed.
+restrained,condition,harmful,1,set_override:speed:0;block_bonus:speed;disadvantage:save.dex;disadvantage:attack;note:Attacks against you have Advantage,Restrained,,"•A restrained creature's speed becomes 0, and itcan't benefit from any bonus to its speed.
 •Attack rolls against the creature have advantage,and the creature's attack rolls have disadvantage.
 •The creature has disadvantage on Dexterity saving throws.",
-stunned,true,1,apply_condition:incapacitated;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage,Stunned,,"•A stunned creature is incapacitated (see the condition), can't move, and can speak onlyfalteringly.
+stunned,condition,harmful,1,apply_condition:incapacitated;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage,Stunned,,"•A stunned creature is incapacitated (see the condition), can't move, and can speak onlyfalteringly.
 •The creature automatically fails Strength andDexterity saving throws.
 •Attack rolls against the creature have advantage.",
-unconscious,true,1,apply_condition:incapacitated;apply_condition:prone;disadvantage:attack;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage;note:Any hit from within 5 ft is a critical hit;note:You drop what you're holding,Unconscious,,"•An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware ofits surroundings
+unconscious,condition,harmful,1,apply_condition:incapacitated;apply_condition:prone;disadvantage:attack;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;note:Attacks against you have Advantage;note:Any hit from within 5 ft is a critical hit;note:You drop what you're holding,Unconscious,,"•An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware ofits surroundings
 •The creature drops whatever it's holding and falls prone.
 •The creature automatically fails Strength andDexterity saving throws.
 •Attack rolls against the creature have advantage.
 •Any attack that hits the creature is a critical hit ifthe attacker is within 5 feet of the creature.
 The Celtic, Egyptian, Greek, and Norse pantheons are fantasy interpretations of historical religions from our world's ancient times. They include deities that are most appropriate for use in a game, divorced from their historical context in the real world and united into pantheons that serve the needs of the game.",
-rage,false,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage.melee,str+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",
+rage,condition,helpful,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage.melee,str+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",
