@@ -1,11 +1,11 @@
-#content-hash: xxh64:64f9b4958c6308c1
+#content-hash: xxh64:4679979b3aaa4dc1
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd4e-7cbd-ab16-da8d50473527
 #content-schema: 2
-#content-updated_at: 2026-09-06
+#content-updated_at: 2026-09-22
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk
 club,weapon,"simple, melee, light",1d4 bludgeoning,,,,1 sp,2,Club,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60",1d4 piercing,,,,2 gp,1,Dagger,,,
@@ -57,6 +57,42 @@ chain_mail,armor,"armor:heavy, ac:16, dex_cap:0, str_min:13, stealth_disadvantag
 splint,armor,"armor:heavy, ac:17, dex_cap:0, str_min:15, stealth_disadvantage",,,,,200 gp,60,Splint,,,
 plate,armor,"armor:heavy, ac:18, dex_cap:0, str_min:15, stealth_disadvantage",,,,,"1,500 gp",65,Plate,,,
 shield,shield,ac:2,,,,,10 gp,6,Shield,,,
+alchemists_supplies,tool,,,,,,50 gp,8,Alchemist's supplies,,,
+brewers_supplies,tool,,,,,,20 gp,9,Brewer's supplies,,,
+calligraphers_supplies,tool,,,,,,10 gp,5,Calligrapher's supplies,,,
+carpenters_tools,tool,,,,,,8 gp,6,Carpenter's tools,,,
+cartographers_tools,tool,,,,,,15 gp,6,Cartographer's tools,,,
+cobblers_tools,tool,,,,,,5 gp,5,Cobbler's tools,,,
+cooks_utensils,tool,,,,,,1 gp,8,Cook's utensils,,,
+glassblowers_tools,tool,,,,,,30 gp,5,Glassblower's tools,,,
+jewelers_tools,tool,,,,,,25 gp,2,Jeweler's tools,,,
+leatherworkers_tools,tool,,,,,,5 gp,5,Leatherworker's tools,,,
+masons_tools,tool,,,,,,10 gp,8,Mason's tools,,,
+painters_supplies,tool,,,,,,10 gp,5,Painter's supplies,,,
+potters_tools,tool,,,,,,10 gp,3,Potter's tools,,,
+smiths_tools,tool,,,,,,20 gp,8,Smith's tools,,,
+tinkers_tools,tool,,,,,,50 gp,10,Tinker's tools,,,
+weavers_tools,tool,,,,,,1 gp,5,Weaver's tools,,,
+woodcarvers_tools,tool,,,,,,1 gp,5,Woodcarver's tools,,,
+disguise_kit,tool,,,,,,25 gp,3,Disguise kit,,,
+forgery_kit,tool,,,,,,15 gp,5,Forgery kit,,,
+dice_set,tool,,,,,,1 sp,,Dice set,,,
+playing_card_set,tool,,,,,,5 sp,,Playing card set,,,
+herbalism_kit,tool,,,,,,5 gp,3,Herbalism kit,,,
+bagpipes,tool,,,,,,30 gp,6,Bagpipes,,,
+drum,tool,,,,,,6 gp,3,Drum,,,
+dulcimer,tool,,,,,,25 gp,10,Dulcimer,,,
+flute,tool,,,,,,2 gp,1,Flute,,,
+lute,tool,,,,,,35 gp,2,Lute,,,
+lyre,tool,,,,,,30 gp,2,Lyre,,,
+horn,tool,,,,,,3 gp,2,Horn,,,
+pan_flute,tool,,,,,,12 gp,2,Pan flute,,,
+shawm,tool,,,,,,2 gp,1,Shawm,,,
+viol,tool,,,,,,30 gp,1,Viol,,,
+navigators_tools,tool,,,,,,25 gp,2,Navigator's tools,,,
+poisoners_kit,tool,,,,,,50 gp,2,Poisoner's kit,,,
+thieves_tools,tool,,,,,,25 gp,1,Thieves' tools,,,
+vehicles,tool,,,,,,,,Vehicles (land or water),,,
 abacus,gear,,,,,,2 gp,2,Abacus,,,
 acid,gear,,,,,,25 gp,1,Acid (vial),,,
 alchemists_fire,gear,,,,,,50 gp,1,Alchemist's fire (flask),,,
