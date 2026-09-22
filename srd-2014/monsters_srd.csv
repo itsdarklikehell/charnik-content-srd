@@ -1,4 +1,4 @@
-#content-hash: xxh64:d12f43dc4bd4a7da
+#content-hash: xxh64:2ba81fe8be27dfc5
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -2819,7 +2819,7 @@ Actions.
 Quarterstaff. Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh ), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh .
 Druids dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are
 tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance.",
-gladiato_r,medium,humanoid (any race),any alignment,16,112,15d8 + 45,30 ft.,18,15,16,10,12,15,7,5,6,,,,5,,,,passive Perception 11,any one language (usually Common),"Athletics +10, Intimidation +5",Spear:+7:5 ft. and range 20/60 ft:2d6+4 piercing; Shield Bash:+7:5 ft:2d4+4 bludgeoning,,Gladiato r,,"Medium humanoid (any race), any alignment
+gladiator,medium,humanoid (any race),any alignment,16,112,15d8 + 45,30 ft.,18,15,16,10,12,15,7,5,6,,,,5,,,,passive Perception 11,any one language (usually Common),"Athletics +10, Intimidation +5",Spear:+7:5 ft. and range 20/60 ft:2d6+4 piercing; Shield Bash:+7:5 ft:2d4+4 bludgeoning,,Gladiator,,"Medium humanoid (any race), any alignment
 Armor Class 16 (studded leather, shield)
 Hit Points 112 (15d8 + 45)
 Speed 30 ft.
