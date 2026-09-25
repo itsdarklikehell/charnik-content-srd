@@ -47,4 +47,3 @@ jobs:
         with:
           name: ${{ github.event.repository.name }}-gource
           path: ./output.mp4
-

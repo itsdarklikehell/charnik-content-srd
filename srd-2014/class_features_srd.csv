@@ -5,7 +5,7 @@
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd36-72ad-8fc3-f977f1cf41cb
 #content-schema: 2
-#content-updated_at: 2026-09-07
+#content-updated_at: 2026-09-16
 id,class_id,level,resource,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6, 20->inf):long",Rage,,"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
 While raging, you gain the following benefits if you aren't wearing heavy armor:

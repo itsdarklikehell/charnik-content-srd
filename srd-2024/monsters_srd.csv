@@ -4,7 +4,7 @@
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fb3a-7a28-894a-aedc0dd1440a
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-16
 #content-schema: 1
 id,size,creature_type,alignment,ac,initiative,hp,hp_formula,speed,str,dex,con,int,wis,cha,str_save,dex_save,con_save,int_save,wis_save,cha_save,cr,resistances,immunities,vulnerabilities,gear,senses,languages,skills,effects,name_en,name_uk,text_en,text_uk
 aboleth,large,aberration,Lawful Evil,17,+7 (17),150,20d10 + 40,"10 ft., Swim 40 ft.",21,9,15,18,15,18,5,3,6,8,6,4,10,,,,,Darkvision 120 ft.; Passive Perception 20,Deep Speech; telepathy 120 ft.,"History +12, Perception +10",,Aboleth,,"#### Traits

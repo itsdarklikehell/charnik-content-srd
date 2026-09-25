@@ -4,7 +4,7 @@
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f968-7fd0-88fc-dbf43af3ecc8
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-09-16
 #content-schema: 1
 id,category,prereq,repeatable,ability_choice,skill_choice,effects,name_en,name_uk,text_en,text_uk
 alert,origin,,false,,,flat_bonus:initiative+proficiency_bonus,Alert,,"_Origin Feat_

@@ -4,7 +4,7 @@
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-schema: 1
-#content-updated_at: 2026-09-06
+#content-updated_at: 2026-09-16
 #content-id: f1c7c5fa-64f3-4216-a73c-39c264d87fa3
 id,class_id,level,cantrips_known,prepared_known
 bard_1,bard,1,2,4
