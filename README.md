@@ -16,6 +16,11 @@ manifest or index file; every CSV describes itself in-band through its `#content
 
 ## Using it with the app
 
+## Ontwikkeltijdlijn
+
+<video src="https://raw.githubusercontent.com/itsdarklikehell/charnik-content-srd/master/gource.mp4" controls width="100%"></video>
+
+
 Clone this repo **next to** the app repo — that layout needs no configuration at all:
 
 ```
