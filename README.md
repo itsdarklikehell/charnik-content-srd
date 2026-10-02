@@ -1,5 +1,11 @@
 # charnik-content-srd
 
+
+[![CI](https://github.com/itsdarklikehell/charnik-content-srd/actions/workflows/ci.yml/badge.svg)](https://github.com/itsdarklikehell/charnik-content-srd/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/itsdarklikehell/charnik-content-srd)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+
 The SRD rules data that [Charnik](https://github.com/FernDragonborn/charnik) ships with, as plain
 CSV. It lives in its own repository so **rules data can be corrected and released without shipping
 an app build** — a content fix is a commit here, not a new binary.
